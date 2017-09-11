@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name=" Keywords" content="......">      <!--content中，网页关键字-->
+    <meta name=" description" content="......">   <!--content中，网页描述文字-->
+    <meta name="author" content="......">        <!--标注作者-->
+    <title>译员展示页面</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/nav.css"/>
+    <link rel="stylesheet" href="css/page.css" type="text/css"/>
+    <link rel="stylesheet" href="css/interpreter.show.css" type="text/css"/>
+    <link rel="stylesheet" href="css/interpreter.cards.css" type="text/css"/>
+
+    <script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/public.nav.footer.js"></script>
+    <script type="text/javascript" src="js/page.js"></script>
+    <script type="text/javascript" src="js/all.needs.js"></script>
+
+    <script type="text/javascript">
+    $(function(){
+      function tt(dd){
+          //alert(dd);
+      }
+      var GG = {
+          "kk":function(mm){
+              //alert(mm);
+          }
+      }
+      $("#page").initPage(100,1,GG.kk);
+      $("#page1").initPage(100,1,GG.kk);
+    })
+    </script>
+  </head>
+  <body style="background:#f5f5f5;">
+    <!--      顶部导航      -->
+    <div class="publickNav"></div>
+
+    <div class="container">
+      <!--  logo 搜索栏  -->
+      <nav class="publickSearch"></nav>
+
+      <!--  内容头部导航  -->
+      <div class="contentNav"></div>
+
+      <div class="interpreter_conts">
+        <!--  搜索翻译人员  -->
+        <div class="interpreter_search">
+          <form class="form-inline">
+            <div class="form-group">
+              <select class="form-control select_wid" name="">
+                <option value="">跨境电商</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <select class="form-control select_wid" name="">
+                <option value="">等级</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <select class="form-control select_wid" name="">
+                <option value="">排名</option>
+              </select>
+            </div>
+            <div class="input-group pull-right">
+              <input type="text" class="form-control" style="width:340px;" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-info" type="button">搜 索</button>
+              </span>
+            </div>
+          </form>
+          <div class="checks_langu row">
+            <span class="col-sm-1">选择语种：</span>
+            <div class="col-sm-10">
+              <label class="checkbox-inline">
+                <input type="checkbox" id="langue01" value="option1"> 汉译英
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" id="langue02" value="option2"> 英译汉
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" id="langue03" value="option3"> 英译韩
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" id="langue03" value="option3"> 韩译英
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" id="langue03" value="option3"> 英译日
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" id="langue03" value="option3"> 日译英
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" id="langue03" value="option3"> 英译俄
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" id="langue03" value="option3"> 俄译英
+              </label>
+              <div class="checbox_all">
+                <label class="checkbox-inline">
+                  <input type="checkbox" id="langue03" value="option3"> 俄译英
+                </label>
+              </div>
+              <span class="checkbox-inline checkbox_click">展示更多 <i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <!--  译员展示   -->
+        <div class="index_linguister_card">
+          <div class="append_card">
+            <div class="cards_one text-right fl">
+              <span class="cards_title">推荐</span>
+              <img class="card_img" src="http://via.placeholder.com/65x75 " alt="">
+              <p><span class="card_name">张三</span>等级：<span>3级</span></p>
+              <p>语种：<span>汉英</span></p>
+              <p>学历：<span>本科</span></p>
+              <div class="texts_left">
+                <p>所学专业：<span>机械设计</span></p>
+                <p>专业领域：<span>机械、机电、通信</span></p>
+                <p>翻译经验：<span>4000字</span></p>
+                <p>校对经验：<span>3000字</span></p>
+              </div>
+              <div class="append_card_btn">
+                <a href="javascript:;" class="append_card_btn01">选TA<span class="list_badge" style="right:-7px;top:-7px;">1</span></a>
+                <a href="interpreter.show.details.html" class="append_card_btn02">详情</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <!--currentpage="1" numbercount="100"-->
+        <div class="common_problem_page" style="padding-top:30px;"><ul class="page pull-right" maxshowpageitem="5" pagelistcount="10"  id="page"></ul></div>
+        <div class="clear"></div>
+
+      </div>
+      <!-- 用户指南  -->
+      <div class="messages container"></div>
+
+      <!--------  login footer  -------->
+      <footer class="container register_footer cl"></footer>
+
+    </div>
+    <script type="text/javascript">
+    $(function(){
+      // 复选框  显示 隐藏
+      var icon = '<i class="fa fa-angle-double-right" aria-hidden="true"></i>'
+        $(".checkbox_click").click(function(){
+          if($(".checbox_all").hasClass("checkbox_hide")){
+            $(".checbox_all").removeClass("checkbox_hide");
+            $(".checkbox_click").html("查看更多"+icon);
+          }else{
+            $(".checbox_all").addClass("checkbox_hide");
+            $(".checkbox_click").text(" 收起");
+          }
+        })
+
+      // 卡片循环添加
+      var cards_one = $(".index_linguister_card").html();
+      for(var i=0;i<4;i++){
+        $(".index_linguister_card").append(cards_one)
+      }
+
+      //  选他 数字加1
+      $(".append_card_btn01").click(function(){
+        parseInt($(this).find(".list_badge").text(parseInt($(this).find(".list_badge").text())+1))
+      })
+    })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+.information_select{height:80px;padding-top: 30px;border-bottom:1px dashed #ccc;}
+.information_select div{width:140px;}
+
+.information_content ul.list-inline li a{font-weight: 700;display: inline-block;padding:10px;margin:10px 5px 15px 0;}
+.information_content .news_information{color:#8db5e3;}
+
+.case_lists{height:45px;line-height: 25px;border-right:none;border-left:none;}
+.case_lists:nth-of-type(odd){background:#f2f2f2;}
+.btn_Style{width:30px;height:30px;border:1px solid #ccc;border-radius: 4px;padding:4px 8px;margin-left: 15px;}
+.info_text{padding-left:20px;}
+
+.infor_td:last-child{text-align: center;width:50%;}
+
+.info_time{text-align: center}
+
+.btncas{cursor: pointer;}
+.btncas:hover span{color:#337ab7;}

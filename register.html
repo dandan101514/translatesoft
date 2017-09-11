@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name=" Keywords" content="......">      <!--content中，网页关键字-->
+    <meta name=" description" content="......">   <!--content中，网页描述文字-->
+    <meta name="author" content="......">        <!--标注作者-->
+    <title>注册</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/register.css"/>
+
+    <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/public.nav.footer.js"></script>
+    <script type="text/javascript" src="js/register.js"></script>
+
+  </head>
+  <body>
+    <div class="container-fluid" style="padding:0;">
+      <!--  login top  -->
+      <div class="register_top container">
+        <div class="row">
+          <a href="index.html" class="register_top_logo col-sm-3"></a>
+          <h1 class="login_register col-sm-8">欢迎登录</h1>
+        </div>
+      </div>
+
+      <!--  login body  -->
+      <div class="" style="background:#8db5e3;">
+        <div class="register_body container">
+          <div class="row">
+            <div class="register_body_left col-md-7 col-sm-6 col-xs-12">
+              <img class="img-responsive" style="width:580px;height:400px;" src="img/1.jpg" alt="">
+            </div>
+            <div class="register_body_right col-md-5 col-sm-6 col-xs-12 pull-right">
+              <div class="header">
+                <div class="switch" id="switch">
+                  <a class="switch_btn_focus" id="switch_qlogin" href="javascript:;">手机号注册</a>
+            		  <a class="switch_btn" id="switch_login" href="javascript:;">用户名密码注册</a>
+                  <div class="switch_bottom" id="switch_bottom"></div>
+                </div>
+              </div>
+              <!-- 手机/邮箱注册面板 -->
+              <div class="web_qr_login" id="web_qr_login">
+                <!--登录-->
+                <div class="web_login" id="web_login">
+                  <div class="login_form">
+                    <div id="userMes" class="cue">快速注册请注意格式</div>
+                    <form name="loginform" id="login_form" class="loginForm form-horizontal" action="login.html"  method="post"><input type="hidden" name="did" value="0"/>
+                      <div class="form-group row">
+                        <label for="tel" class="col-xs-2 control-label">手机号</label>
+                        <div class="col-xs-7 pull-left">
+                          <input type="text" class="form-control" id="tel" placeholder="用户名/手机号/邮箱">
+                        </div>
+                        <a href="javascript:;" class="col-xs-3 message" style="outline:none;">短信验证</a>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputPassword1" class="col-xs-2 control-label">验证码</label>
+                        <div class="col-xs-7">
+                          <input type="text" class="form-control" id="inputPassword1" placeholder="请输入验证码">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputPassword2" class="col-xs-2 control-label">密码</label>
+                        <div class="col-xs-7">
+                          <input type="password" class="form-control" id="inputPassword2" placeholder="请输入密码">
+                        </div>
+                      </div>
+                      <div class="login_radio">
+                        <span class="message">注册倾向</span>
+                        <label class="radio-inline">
+                          <input type="radio" class="login_radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 我来赚钱
+                        </label>
+                        <label class="radio-inline">
+                          <input type="radio" class="login_radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 找人翻译
+                        </label>
+                      </div>
+                      <div class="login_ckeckbox">
+                        <label class="checkbox-inline checkbox_01">
+                          <input type="checkbox" class="checkbox_agree" id="inlineCheckbox1" value=""> 环宇爱译协议
+                        </label>
+                      </div>
+                      <div class="login_submit">
+                        <input type="button" value="立即注册" id="tel_submit" class="btn btn-info btn-block"/>
+                      </div>
+                    </form>
+                 </div>
+               </div>
+                <!--登录end-->
+              </div>
+              <!--注册-->
+                <div class="qlogin" id="qlogin" style="display: none; ">
+                  <div class="web_login">
+                    <div id="userCue" class="cue">快速注册请注意格式</div>
+                    <form name="form2" class="form-horizontal" id="regUser" accept-charset="utf-8"  action="login.html" method="post">
+                      <div class="form-group row">
+                        <label for="user" class="col-xs-2 control-label">用户名</label>
+                        <div class="col-xs-9">
+                          <input type="text" class="form-control" id="user" placeholder="用户名">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="passwd" class="col-xs-2 control-label">密码</label>
+                        <div class="col-xs-9">
+                          <input type="password" class="form-control" id="passwd" placeholder="请输入密码">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="passwd2" class="col-xs-2 control-label">确认密码</label>
+                        <div class="col-xs-9">
+                          <input type="password" class="form-control inputstyle2" id="passwd2" placeholder="请再次输入密码">
+                        </div>
+                      </div>
+                      <div class="login_radio">
+                        <span class="message">注册倾向</span>
+                        <label class="radio-inline02" style="padding-left:20px;">
+                          <input type="radio" name="inlineRadioOptions" class="login_radio02" id="inlineRadio3" value="option3"> 我来赚钱
+                        </label>
+                        <label class="radio-inline02">
+                          <input type="radio" name="inlineRadioOptions" class="login_radio02" id="inlineRadio4" value="option4"> 找人翻译
+                        </label>
+                      </div>
+                      <div class="login_ckeckbox">
+                        <label class="checkbox-inline checkbox_02">
+                          <input type="checkbox" id="inlineCheckbox2" value="option5"> 环宇爱译协议
+                        </label>
+                      </div>
+                      <div class="login_submit">
+                        <input type="button" value="立即注册" id="use_submit" class="btn btn-info btn-block"/>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <!--注册end-->
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!--  login footer  -->
+      <footer class="container register_footer"></footer>
+    </div>
+  </body>
+</html>

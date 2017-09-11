@@ -1,0 +1,32 @@
+.wraper {background:#fff;zoom:1;box-shadow: 2px 2px 8px #ccc;margin-top: 40px;height:auto;}
+/* 软件左侧 */
+.wraper_left{padding-left:50px;border-right: 2px dashed #ccc;margin-top: 50px;margin-bottom: 60px;}
+.wraper_left h1{font-size: 26px;margin-bottom: 30px;}
+.msg-l{float:left;overflow:hidden;border-bottom: 1px solid #ccc;margin:0 60px 0 20px;padding-bottom: 35px;background-color:#fff;}
+.msg-list{padding:12px 0;float:left;}
+.msg-list li{width:300px;float:left;height:30px;overflow:hidden;margin:0 24px 10px 0;display:inline;}
+.msg-list li .stars{margin-top:3px;}
+.msg-list li .sub{color:#999;}
+.stars,.stars span{background:url(http://www1.pconline.com.cn/2015/dl/common/images/bg.png) no-repeat -96px -16px;line-height:0; overflow:hidden;display:inline-block;vertical-align: top;}
+.stars{ width:79px;height:13px;}
+.stars span{height:13px;background-position:-96px -30px;}
+.lab_check{margin:25px 0;}
+.dl-area .btn{color:#fff;padding:7px 25px;margin-right: 20px;}
+
+/*软件左侧  tab栏*/
+.sofr_tab{padding: 30px 50px 30px 30px;}
+.sofr_tab .tab-content{padding-bottom: 80px;background:#f2f2f2;}
+.sofr_tab .tab-pane{padding-top:20px;padding-left:15px;}
+.sofr_tab #soft01{padding-right: 30px;}
+.sofr_tab #soft01 p{text-indent: 2em;}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{background:#f2f2f2;border:none;border-bottom: 1px solid transparent;font-size: 16px;color:#4286d4;}
+.sofr_tab .soft_pic{width:100%;height: auto;padding:30px;text-align: center;}
+.sofr_tab .soft_pic img{padding:0 30px;}
+
+/*右侧内容样式*/
+.wraper_right{margin-top: 50px;}
+.wraper_right h5{font-size: 16px;font-weight: 700;}
+.wraper_need{height:auto;margin-right: 20px;margin-top: 30px;}
+.wraper_need .hot_need{width:inherit;height:245px;margin: 0 auto;text-align: center;margin-top: 30px;padding-top: 20px;background: #f2f2f2;box-shadow: 2px 2px 8px #ccc}
+.wraper_need .hot_need .explian{text-align: left;padding:15px 20px 0 20px;line-height: 1.4;}
+.wraper_need .hot_need .explian a{margin-left: 40px;}

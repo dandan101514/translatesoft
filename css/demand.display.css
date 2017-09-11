@@ -1,0 +1,39 @@
+/*  需求展示样式  */
+
+.demand_display_content{background:#fff;zoom:1;box-shadow: 2px 2px 8px #ccc;margin-top: 40px;height:auto;}
+
+/*需求展示样式 left*/
+.demand_left{padding-left:50px;border-right: 2px dashed #ccc;margin-top: 50px;margin-bottom: 60px;padding-bottom: 80px;}
+.demand_left .demand_form .form-inline .form-group .form-control{width:140px;margin-right: 30px;}
+.demand_left .demand_form .form-inline .input-group .form-control{width:240px;}
+.demand_left .demand_form .form-inline .input-group .btn{padding-right:15px;padding-left:15px;}
+
+
+
+/*checkbox*/
+.checks_langu{margin-top: 40px;}
+.checks_langu>span{padding-right:0;width:100px;font-weight: 700;}
+.checks_langu .checkbox-inline{margin:0 20px 20px 20px;}
+.checbox_all{display: none;}
+.checkbox_hide{display: inline-block;}
+.checkbox_click{color:#3698d3;}
+
+/* 需求展示列表 样式 */
+.demand_lists{margin-top: 30px;}
+.demand_lists .list-group .list-group-item{margin-bottom: 20px;}
+.demand_lists .list-group .list-group-item h5{font-weight: 700;}
+.list-group-item .list_content{padding-left: 15px;padding-top: 7px}
+.list-group-item .list_content .list_one p{text-overflow: hidden;overflow: hidden;white-space: nowrap;}
+.list-group-item .list_content .list_one>p:first-child>span{font-weight: 700;padding-right: 20px;}
+.list-group-item .list_content .list_one p span{padding-right: 10px}
+.list-group-item .list_content button{padding-left:15px;padding-right: 20px;}
+.list-group-item .states{vertical-align: middle;display: block;line-height: 50px;text-align: center;padding:0;}
+.list-group-item .attend_preson{text-align: center;}
+
+/*需求展示样式 right*/
+.demand_right{margin-top: 50px;}
+.demand_right h5{font-size: 16px;font-weight: 700;}
+.wraper_need{height:auto;margin-right: 20px;margin-top: 30px;}
+.wraper_need .hot_need{width:inherit;height:245px;margin: 0 auto;text-align: center;margin-top: 30px;padding-top: 20px;background: #f2f2f2;box-shadow: 2px 2px 8px #ccc}
+.wraper_need .hot_need .explian{text-align: left;padding:15px 20px 0 20px;line-height: 1.4;}
+.wraper_need .hot_need .explian a{margin-left: 40px;}

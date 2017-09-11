@@ -1,0 +1,187 @@
+html,
+body,
+div,
+p,
+ul,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+select,
+button,
+textarea,
+iframe,
+table,
+th,
+td {
+	margin: 0;
+	padding: 0;
+  color:#222;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	border: 0 none;
+	vertical-align: top;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+body {
+	background: #fff;
+	font-size: 14px;
+	color:#6f6f6f;
+	font-family: "Microsoft YaHei";
+}
+.container{
+	padding:0;
+	width: 1200px;
+}
+button {
+	cursor: pointer;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+a{
+  color: #222;
+}
+a,a:hover,a:link,a:active{
+  color: #222;
+	text-decoration:none;
+}
+p{
+	line-height: 2;
+}
+
+input,
+textarea {
+	outline: none;
+	box-shadow: none;
+}
+input::-ms-clear {
+	display:none;
+}
+
+textarea {
+	resize: none;
+	overflow: auto;
+}
+
+.clearfix {
+	zoom: 1;
+}
+/*清除元素后面的浮动*/
+.clearfix::before {
+	content: ".";
+	width: 0;
+	height: 0;
+	visibility: hidden;
+	display: block;
+	clear: both;
+}
+/*新建一个元素清除浮动*/
+.clear {
+	diplay: block!important;
+	float: none!important;
+	clear: both;
+	overflow: hidden;
+	width: auto!important;
+	height: 0!important;
+	margin: 0 auto!important;
+	padding: 0!important;
+	font-size: 0;
+	line-height: 0;
+}
+.cl{ clear: both;}
+
+.relative {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.fl {
+	float: left
+}
+
+.fr {
+	float: right
+}
+
+.tl {
+	text-align: left;
+}
+
+.tc {
+	text-align: center
+}
+
+.tr {
+	text-align: right;
+}
+
+.ellipse {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.textIndent{
+	text-indent: 2em;
+}
+label{
+	font-weight: 500;
+}
+
+/*  共用样式结束  */
+/*   用户指南样式   */
+.messages{
+	margin-top: 120px;
+}
+.message_more_li{
+	padding-left: 25px;
+}
+.message_more_li>li:first-child{
+	display: block;
+	margin-bottom: 15px;
+}
+.message_more_li h2{
+	text-align: center;
+	margin-left:-20px;
+}
+.message_more_li a{
+	display: block;
+	padding:5px 0;
+	padding-left: 35px;
+}
+/*  footer  */
+.register_footer{
+  height: 155px;
+  padding-top: 53px;
+  text-align: center;
+}
+.footer_adress{
+  margin-top:30px;
+}
+.user_center>.container:first-child{border-top:2px solid #ccc;}
+.title_public{height: 50px;}
+.title_public h2{ font-size: 24px;font-weight: 700;padding-bottom: 30px;margin-top: 20px;}
+.content_public{ background:#fff;height:auto;width:100%;margin-top: 30px;padding:30px 100px 80px 100px;}
+
+.list_badge{right: 0px;top: 0px;display: block;width: 15px;height: 15px;color: #fff;font-size: 10px !important;background: #4286d4;position: absolute;line-height: 15px;text-align: center;}

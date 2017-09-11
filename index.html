@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name=" Keywords" content="......">      <!--content中，网页关键字-->
+    <meta name=" description" content="......">   <!--content中，网页描述文字-->
+    <meta name="author" content="......">        <!--标注作者-->
+    <title>首页</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/nav.css"/>
+    <link rel="stylesheet" href="css/interpreter.cards.css"/>
+    <link rel="stylesheet" href="css/next.pic.css"/>
+
+    <script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/public.nav.footer.js"></script>
+    <script type="text/javascript" src="js/all.needs.js"></script>
+
+    <style>
+      .box
+      {
+      width: 1200px;
+      height: 210px;
+      overflow: hidden;
+      }
+      .box img
+      {
+      width:175px;
+      border-style: none;
+      height: 210px;
+      }
+      .box ul
+      {
+      margin: 0px;
+      padding: 0px;
+      list-style-type: none;
+      }
+      .box ul li
+      {
+        margin:0 10px;
+        float: left;
+      }
+    </style>
+  </head>
+  <body>
+    <!--      顶部导航      -->
+    <div class="publickNav"></div>
+    <!--   正文内容   -->
+    <div class="container">
+      <!--  logo 搜索栏  -->
+      <nav class="publickSearch"></nav>
+
+      <!--  内容头部导航  -->
+      <div class="contentNav"></div>
+
+      <!--     全部需求 开始      -->
+      <!-- <div class="index_all_need dropdown"></div> -->
+
+      <!--     轮播 开始      -->
+      <div class="index_carousel row" style="margin-top:30px;">
+        <div class="index_carousel_left col-sm-8">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="http://via.placeholder.com/805x340" alt="...">
+            </div>
+            <div class="item">
+              <img src="http://via.placeholder.com/805x340" alt="...">
+            </div>
+            <div class="item">
+              <img src="http://via.placeholder.com/805x340" alt="...">
+            </div>
+            <div class="item">
+              <img src="http://via.placeholder.com/805x340" alt="...">
+            </div>
+          </div>
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <i class="fa fa fa-angle-left glyphicon-chevron-left" aria-hidden="true"></i>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <i class="fa fa fa-angle-right glyphicon-chevron-right" aria-hidden="true"></i>
+          </a>
+        </div>
+        </div>
+        <div class="index_carousel_right col-sm-4">
+          <div class="news_list">
+            <div class="news_list_left fl">
+              <ul>
+                <li class="news_list_left_li">公告</li>
+                <li class="news_list_left_li">咨讯</li>
+                <li class="news_list_left_li">活动</li>
+              </ul>
+            </div>
+            <ul class="news_list_right list-group fl">
+              <li class="text-right"><a href="information.html" style="display:block;padding-top:5px;color:#8db5e3;">更多 >></a></li>
+              <li class="list-group-item"><i class="fa fa-circle" aria-hidden="true"></i><a href="information.details.html" target="_blank">翻译公司怎样做网络营销？</a><span class="pull-right">2017-03-06</span></li>
+              <li class="list-group-item"><i class="fa fa-circle" aria-hidden="true"></i><a href="information.details.html" target="_blank">在翻译软件之前需要做哪些？</a><span class="pull-right">2017-03-06</span></li>
+              <li class="list-group-item"><i class="fa fa-circle" aria-hidden="true"></i><a href="information.details.html" target="_blank">谈谈中俄英语翻译的基本素养</a><span class="pull-right">2017-03-06</span></li>
+              <li class="list-group-item"><i class="fa fa-circle" aria-hidden="true"></i><a href="information.details.html" target="_blank">翻译公司改怎么做网络营销？</a><span class="pull-right">2017-03-06</span></li>
+            </ul>
+          </div>
+          <div class="advert_pic">
+            <img src="http://via.placeholder.com/380x140" alt="">
+          </div>
+        </div>
+      </div>
+      <!--     轮播 结束      -->
+
+      <!--  在线询价 在线咨询  开始  -->
+      <div class="index_online">
+        <!-- 在线询价 -->
+        <div class="index_online_inquiry">
+          <div class="index_linguister_header">
+            <h2 class="index_linguister_h2">在线询价</h2>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="form_inquiry">
+                <form class="form-horizontal" action="" method="post">
+                  <div class="form-group">
+                    <p class="col-sm-3 control-label">语种：</p>
+                    <div class="col-sm-8">
+                      <select class="form-control" name="">
+                        <option value="">-- 请选择语种 --</option>
+                        <option value="">英汉</option>
+                        <option value="">汉英</option>
+                        <option value="">日汉</option>
+                        <option value="">汉日</option>
+                        <option value="">韩汉</option>
+                        <option value="">汉韩</option>
+                        <option value="">德汉</option>
+                        <option value="">汉德</option>
+                        <option value="">法汉</option>
+                        <option value="">汉法</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <p class="col-sm-3 control-label">翻译领域：</p>
+                    <div class="col-sm-8">
+                      <select class="form-control" name="">
+                        <option value="">-- 请选择翻译领域 --</option>
+                        <option value="">日常</option>
+                        <option value="">机械</option>
+                        <option value="">电子</option>
+                        <option value="">电器</option>
+                        <option value="">自动化</option>
+                        <option value="">计算机</option>
+                        <option value="">通信</option>
+                        <option value="">网络</option>
+                        <option value="">物理</option>
+                        <option value="">化学</option>
+                        <option value="">化工</option>
+                        <option value="">医药</option>
+                        <option value="">生化</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <p class="col-sm-3 control-label">流程类型：</p>
+                    <div class="col-sm-8">
+                      <select class="form-control" name="">
+                        <option value="">-- 请选择流程类型 --</option>
+                        <option value="仅翻译">仅翻译</option>
+                        <option value="翻译+校对">翻译+校对</option>
+                        <option value="翻译+校对+审核">翻译+校对+审核</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <p class="col-sm-3 control-label">译员等级：</p>
+                    <div class="col-sm-8">
+                      <select class="form-control" name="">
+                        <option value="">-- 请选择译员等级 --</option>
+                        <option value="">三级</option>
+                        <option value="">四级</option>
+                        <option value="">五级</option>
+                      </select>
+                    </div>
+                    <a class="questions" style="position:relative;" href="javascript:;">
+                      <i class="fa fa-question dengjihelp" aria-hidden="true"></i>
+                      <span class="help_text" >
+                        三级：三年相关技术领域翻译经验、通过爱译社考核<br />
+                        四级：五年相关技术领域翻译经验、通过爱译社考核<br />
+                        五级：十年相关技术领域翻译经验、通过爱译社考核
+                      </span>
+                    </a>
+                  </div>
+                  <div class="form-group">
+                    <p class="col-sm-3 control-label">周期：</p>
+                    <div class="col-sm-8">
+                      <select class="form-control" name="">
+                        <option value="">-- 请选择译员等级 --</option>
+                        <option value="">一般</option>
+                        <option value="">加急</option>
+                        <option value="">特急</option>
+                      </select>
+                    </div>
+                    <a class="questions" href="javascript:;" style="position:relative;">
+                      <i class="fa fa-question zhouqihelp" aria-hidden="true"></i>
+                      <span class="help_zhouqi_text" >
+                        一般情况：流程处理时间1天、3000字/天(翻译)、6000字/天(校对)、8000字/天(审核)<br />
+                        加急情况：流程处理时间1天、4000字/天（翻译）、8000字/天（校对）、10000字/天（审核）<br />
+                        特急情况：5000字/天（翻译）、10000字/天（校对）、15000字/天（审核）
+                      </span>
+                    </a>
+                  </div>
+                  <div class="form-group">
+                    <div class="row">
+                      <!-- <span class="wait_pre col-sm-2 col-sm-offset-3">￥2000.00</span> -->
+                      <span class="wait_pre col-sm-3 col-sm-offset-4">可选择译员 <span>555</span>人</span>
+                      <span class="wait_pre col-sm-3">约合每千字￥ <span>5</span></span>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-4 col-sm-3">
+                      <a href="offer.details.html" class="btn btn-info">在线询价</a>
+                    </div>
+                    <div class="col-sm-3">
+                      <a href="publish.need.html" class="btn btn-info">快速发布</a>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-sm-5" style="margin-left:60px;">
+              <div class="reproduction">
+                需求发布的流程图演示
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--  在线咨询  -->
+        <!-- <div class="index_online_consult col-sm-6">
+          <div class="index_linguister_header">
+            <h2 class="index_linguister_h2">在线咨询</h2>
+          </div>
+          <div class="linguister_content">
+            <div class="linguister_tel">
+              <span>客服QQ：12345678</span>
+              <span>客服电话：12345678</span>
+            </div>
+            <div class="">
+              <textarea name="name" class="form-control" rows="8" placeholder="请输入你想咨询的问题，我们会有人为您解答"></textarea>
+            </div>
+            <div class="linguister_button">
+              <button type="submit" class="btn btn-default">咨询留言</button>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <!--  在线询价 在线咨询  结束   -->
+      <div class="clear"></div>
+
+      <!--     icons    -->
+      <div class="index_icons">
+        <ul class="list-inline index_icons_list">
+          <li>
+            <i class="fa fa-clock-o fa-3x" aria-hidden="true"></i>
+            <span>时效性</span>
+          </li>
+          <li>
+            <i class="fa fa-crosshairs fa-3x" aria-hidden="true"></i>
+            <span>准确性</span>
+          </li>
+          <li>
+            <i class="fa fa-eye fa-3x" aria-hidden="true"></i>
+            <span>公开性</span>
+          </li>
+          <li>
+            <i class="fa fa-wifi fa-3x" aria-hidden="true"></i>
+            <span>便捷性</span>
+          </li>
+        </ul>
+      </div>
+
+      <!--    价格      -->
+      <!-- <div class="index_prices">
+        <ul class="list-inline">
+          <li class="index_prices_li"><h3>100000</h3><p>议员</p></li>
+          <li class="index_prices_li"><h3>1000000</h3><p>翻译需求</p></li>
+          <li class="index_prices_li"><h3>200000</h3><p>交易量</p></li>
+        </ul>
+      </div> -->
+
+      <!--    专利翻译精英  开始   -->
+      <div class="index_linguister">
+        <div class="index_linguister_header">
+          <h2 class="index_linguister_h2">专利翻译精英</h2>
+          <p class="index_linguister_p">
+            <button class="btn btn-default">英汉</button>
+            <button class="btn btn-default">日汉</button>
+            <button class="btn btn-default">德汉</button>
+            <button class="btn btn-default">韩汉</button>
+            <button class="btn btn-default">法汉</button>
+          </p>
+          <a class="more_color" href="interpreter.show.html">译员查找 >></a>
+          <div class="pull-right index_linguister_chevron">
+            <a href="javascript:;"><i style="color:#fff;" class="fa fa fa-angle-left fa-2x" aria-hidden="true"></i></a>
+            <a href="javascript:;"><i style="color:#fff;" class="fa fa fa-angle-right fa-2x" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <!--    成为新译员    -->
+        <div class="index_costumer" style="overflow:hidden;">
+          <ul class="list-inline index_costumer_lits">
+            <li><a href="javascript:;">欢迎***成为平台第***位译员！！！！！1</a></li>
+            <li><a href="javascript:;">欢迎***成为平台第***位译员！！！！！2</a></li>
+            <li><a href="javascript:;">欢迎***成为平台第***位译员！！！！！3</a></li>
+            <li><a href="javascript:;">欢迎***成为平台第***位译员！！！！！4</a></li>
+            <li><a href="javascript:;">欢迎***成为平台第***位译员！！！！！5</a></li>
+            <li><a href="javascript:;">欢迎***成为平台第***位译员！！！！！6</a></li>
+            <li><a href="javascript:;">欢迎***成为平台第***位译员！！！！！7</a></li>
+            <li><a href="javascript:;">欢迎***成为平台第***位译员！！！！！8</a></li>
+            <li><a href="javascript:;">欢迎***成为平台第***位译员！！！！！9</a></li>
+            <li><a href="javascript:;">欢迎***成为平台第***位译员！！！！！10</a></li>
+            <li><a href="javascript:;">欢迎***成为平台第***位译员！！！！！11</a></li>
+          </ul>
+        </div>
+        <div class="index_linguister_card">
+          <div class="append_card">
+            <div class="cards_one text-right fl">
+              <span class="cards_title">推荐</span>
+              <img class="card_img" src="http://via.placeholder.com/65x75 " alt="">
+              <p><span class="card_name">张三</span>等级：<span>3级</span></p>
+              <p>语种：<span>汉英</span></p>
+              <p>学历：<span>本科</span></p>
+              <div class="texts_left">
+                <p>所学专业：<span>机械设计</span></p>
+                <p>专业领域：<span>机械、机电、通信</span></p>
+                <p>翻译经验：<span>4000字</span></p>
+                <p>校对经验：<span>3000字</span></p>
+              </div>
+              <div class="append_card_btn">
+                <a href="javascript:;" class="append_card_btn01">选TA<span class="list_badge" style="right:-7px;top:-7px;">1</span></a>
+                <a href="interpreter.show.details.html" class="append_card_btn02">详情</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="index_linguister_card" style="width:1200px;overflow:hidden;">
+          <div class="append_card">
+            <div class="cards_one text-right fl">
+              <span class="cards_title">推荐</span>
+              <img class="card_img" src="http://via.placeholder.com/65x75 " alt="">
+              <p><span class="card_name">张三</span>等级：<span>3级</span></p>
+              <p>语种：<span>汉英</span></p>
+              <p>学历：<span>本科</span></p>
+              <div class="texts_left">
+                <p>所学专业：<span>机械设计</span></p>
+                <p>专业领域：<span>机械、机电、通信</span></p>
+                <p>翻译经验：<span>4000字</span></p>
+                <p>校对经验：<span>3000字</span></p>
+              </div>
+              <div class="append_card_btn">
+                <a href="javascript:;" class="append_card_btn01">选TA<span class="list_badge" style="right:-7px;top:-7px;">1</span></a>
+                <a href="interpreter.show.details.html" class="append_card_btn02">详情</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="cards_num">共<span>100000</span>英汉译员</p>
+      </div>
+      <div class="clear"></div>
+      <!--    专利翻译精英 结束    -->
+
+      <!--  优秀案例展示  开始  -->
+      <div class="index_linguister">
+        <div class=" box">
+    			<div class=""  id="boxdiv">
+    				<ul class="mobile">
+    					<li style="display:block;"><a href="interpreter.show.works.details.html"><img style="width:175px;height:210px;" src="http://via.placeholder.com/175x210"/></a></li>
+    					<li><a href="interpreter.show.works.details.html"><img style="width:175px;height:210px;" src="http://via.placeholder.com/175x210"/></a></li>
+    					<li><a href="interpreter.show.works.details.html"><img style="width:175px;height:210px;" src="http://via.placeholder.com/175x210"/></a></li>
+    					<li><a href="interpreter.show.works.details.html"><img style="width:175px;height:210px;" src="http://via.placeholder.com/175x210"/></a></li>
+    					<li><a href="interpreter.show.works.details.html"><img style="width:175px;height:210px;" src="http://via.placeholder.com/175x210"/></a></li>
+    					<li><a href="interpreter.show.works.details.html"><img style="width:175px;height:210px;" src="http://via.placeholder.com/175x210"/></a></li>
+    					<li><a href="interpreter.show.works.details.html"><img style="width:175px;height:210px;" src="http://via.placeholder.com/175x210"/></a></li>
+    					<li><a href="interpreter.show.works.details.html"><img style="width:175px;height:210px;" src="http://via.placeholder.com/175x210"/></a></li>
+    				</ul>
+    			</div>
+  		  </div>
+      </div>
+      <!--  优秀案例展示  结束  -->
+
+      <!-- 爱译智能-PAT软件  开始 -->
+      <div class="intelligent_software">
+        <div class="index_linguister_header">
+          <h2 class="index_linguister_h2">爱译智能-PAT软件</h2>
+        </div>
+        <div class="honor_map">
+          <img src="http://via.placeholder.com/1200x200" alt="">
+        </div>
+        <div class="sofe_down">
+          <div class="row wraper_left">
+            <div class="col-sm-6">
+              <h3>爱译智能——PAT软件下载</h3>
+              <div class="msg-l">
+                <ul class="msg-list">
+                  <li><span class="sub">软件大小： </span><span itemprop="fileSize">45.2 MB</li>
+                  <li title="有道词典"><span class="sub">软件厂商： </span>
+                    <a href="javascript:;" rel="nofollow"  target="_blank" title="有道词典">环宇爱译</a>
+                  </li>
+                  <li><span class="sub">软件语言： </span>简体中文</li>
+                  <li><span class="sub">软件授权： </span>免费</li>
+                  <li><span class="sub">软件评级： </span><i class="stars"><span style="width:80%"></span></i></li>
+                  <li><span class="sub">应用平台：</span>WinAll</li>
+                  <li><span class="sub">更新时间： </span>2017-02-03</li>
+                </ul>
+                <div class="form-group lab_check">
+                  <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox1" value="option1"> 电脑端版本下载
+                  </label>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox2" value="option2"> 更新包下载
+                  </label>
+                </div>
+                <div class="dl-area">
+                  <a href="javascript:;" class="btn btn-info">太平洋告诉下载</a>
+                  <a href="javascript:;" class="btn btn-info">告诉下载</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="sofe_down_details">
+                <ul>
+                  <li><h3>环宇爱译-智能PAT软件给译员带来的福音</h3></li>
+                  <li>1、提高翻译速度。</li>
+                  <li>2、提升翻译质量。</li>
+                  <li>3、降低翻译难度。</li>
+                  <li>4、完善客服机制</li>
+                  <li>5、爱译平台还将提供完整的使用说明，以及更新补丁方便译员与我们共同进步。</li>
+                  <li></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 爱译智能-PAT软件  开始 -->
+
+
+      <!--  找需求  开始 -->
+      <div class="index_linguister">
+        <div class="index_linguister_header">
+          <h2 class="index_linguister_h2">找需求</h2>
+          <p class="index_linguister_p">
+            <button class="btn btn-default">英汉</button>
+            <button class="btn btn-default">日汉</button>
+            <button class="btn btn-default">德汉</button>
+            <button class="btn btn-default">韩汉</button>
+            <button class="btn btn-default">法汉</button>
+          </p>
+          <a class="more_color" href="demand.display.html">查看更多 >></a>
+          <div class="pull-right index_linguister_chevron">
+            <a href="javascript:;"><i style="color:#fff;" class="fa fa-angle-left fa-2x" aria-hidden="true"></i></a>
+            <a href="javascript:;"><i style="color:#fff;" class="fa fa-angle-right fa-2x" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="index_needers_card">
+          <div class="needers_cards">
+            <div class="needers_cards_title">
+              <h5>百度.点心省电项目 俄语</h5>
+            </div>
+            <div class="needers_cards_content">
+              <div class="needers_cards_content_left pull-left">
+                <img src="http://via.placeholder.com/72x85" alt="" style="width:72px;height:85px;">
+                <a href="demand.details.html">查看详情</a>
+              </div>
+              <div class="needers_cards_content_right pull-right">
+                <p><span>￥5000</span><span>论文翻译</span></p>
+                <p><span>2天完成</span><span>6名翻译参与</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="cards_num">共<span>100000</span>英汉需求</p>
+      </div>
+      <div class="clear"></div>
+      <!--  找需求  结束  -->
+
+      <!--  环宇爱译 中国专利翻译第一品牌  开始  -->
+      <div class="index_first_brand">
+        <div class="index_linguister_header">
+          <h2 class="index_linguister_h2">环宇爱译 中国专利翻译第一品牌</h2>
+        </div>
+        <div class="row">
+          <div class="col-sm-6" style="margin-left:20px;">
+            <div class="first_brand_details">
+              <p style="line-height:130px;">专利翻译的重要性</p>
+              <p style="line-height:130px;">专利翻译与普通翻译的区别</p>
+              <p style="line-height:130px;">环宇爱译团队的专业性</p>
+            </div>
+          </div>
+          <div class="col-sm-5" style="margin-left:60px;">
+            <div class="first_brand_video">
+              <p style="line-height:400px;text-align:center;">专利翻译的权威视频</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!--  环宇爱译 中国专利翻译第一品牌  结束  -->
+
+
+      <!--  在线翻译 开始  -->
+      <div class="index_online_inquiry">
+        <div class="index_linguister_header">
+          <h2 class="index_linguister_h2">在线翻译</h2>
+        </div>
+        <div class="online_inquiry_content">
+          <div class="form-inline online_inquiry_content_top">
+            <div class="form-group">
+              <select class="form-control" name="">
+                <option value="">自动检测语言</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <button class="form-control btn-info" type="button" name="button">自动翻译</button>
+            </div>
+            <div class="form-group">
+              <button class="form-control btn-info" type="button" name="button">人工翻译</button>
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-sm-6">
+              <textarea name="name" class="form-control" rows="6" placeholder="请输入要翻译的术语和句子"></textarea>
+            </div>
+            <div class="col-sm-6">
+              <textarea name="name" class="form-control" rows="6"></textarea>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!--  在线翻译 结束  -->
+
+      <!-- 用户指南  -->
+      <div class="messages container"></div>
+
+      <!-- login footer  -->
+      <footer class="container register_footer cl"></footer>
+    </div>
+
+    <script  type="text/javascript">
+
+    $(document).ready(function(){
+// slider
+      $('.slider4').bxSlider({
+
+            slideWidth: 200,
+
+            minSlides: 2,
+
+            maxSlides: 3,
+
+			moveSlides: 1,
+
+			startSlide: 1,
+
+            slideMargin: 10
+
+          });
+
+    });
+    </script>
+
+  </body>
+</html>

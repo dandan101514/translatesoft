@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name=" Keywords" content="......">      <!--content中，网页关键字-->
+    <meta name=" description" content="......">   <!--content中，网页描述文字-->
+    <meta name="author" content="......">        <!--标注作者-->
+    <title>用户中心-我是译员-我的信誉</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/nav.css"/>
+    <link rel="stylesheet" href="css/user.center.css"/>
+
+
+    <script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/public.nav.footer.js"></script>
+    <script type="text/javascript" src="js/user.center.js"></script>
+
+    <style>
+      .stars{margin-top:11px;}
+      .stars,.stars span{
+        background:url(http://www1.pconline.com.cn/2015/dl/common/images/bg.png) no-repeat -96px -16px;
+        line-height:0; 
+        overflow:hidden;
+        display:inline-block;
+        vertical-align: top;
+      }
+      .stars{ width:79px;height:13px;}
+      .stars span{height:13px;background-position:-96px -30px;}
+      .integralName{
+        font-size: 18px;
+        margin-left:40px;
+        margin-top:30px;
+      }
+      .myIntegral{
+        width:225px;
+        height:225px;
+        border-radius: 50%;
+        background:#fdfccf;
+        margin:70px auto 40px 40px;
+        padding-top:28px;
+        box-shadow: 4px 4px 10px #f1f1f1;
+      }
+      .myIntegral p{
+        color:#222;
+        text-align: center;
+        padding-top:14px;
+        font-size: 18px;
+      }
+      .integral_rule .reputation_ul1{
+        width:270px;
+        min-height:420px;
+        margin:0 auto;
+        margin-top:10px;
+        border-radius:50%;
+        border:2px solid #fbef1f;
+        padding:30px 13px;
+      }
+      .integral_rule .reputation_ul1 li{
+        padding-bottom:10px;
+        line-height: 2.5;
+      }
+    </style>
+
+  </head>
+  <body style="background: #f5f5f5;">
+    <!--      顶部导航      -->
+    <div class="publickNav"></div>
+    <!--  logo 搜索栏  -->
+    <div class="container">
+      <nav class="publickSearch"></nav>
+    </div>
+
+    <!--  用户中心内容  -->
+    <div class="user_center">
+
+      <div class="container">
+        <div class="title_public">
+          <h2>用户中心</h2>
+        </div>
+
+        <!--    用户中心 我是客户   -->
+        <div class="my_customer">
+          <div class="row">
+
+            <!--    用户中心 我是客户 左侧导航   -->
+            <div class="my_customer_left col-sm-2">
+              <ul class="my_customer_ul"></ul>
+            </div>
+
+            <!--    用户中心 我是客户 我的信誉 右侧内容   -->
+            <div class="my_customer_right col-sm-10">
+              <!--  用户中心右侧 tab切换栏   -->
+              <div class="">
+                  <ul id="suerTab" class="nav nav-tabs">
+                    <li class="active"><a href="#basicdata" data-toggle="tab">我的信誉</a></li>
+                  </ul>
+                </div>
+  
+                <!--  tab面板对应内容 我的信誉  -->
+                <div class="myTabContent tab-content">
+                  <div class="tab-pane fade in active" id="basicdata" style="padding:20px 20px 30px 30px;">
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <p class="integralName" style="margin-top:40px;letter-spacing:19px;">姓名:<span>张三</span></p>
+                        <p class="integralName">信誉等级：<i class="stars" style="margin-left:5px;"><span style="width:80%"></span></i></p>
+                        <div class="myIntegral">
+                          <p>信誉度</p>
+                          <p>800</p>
+                          <p>已超过了55%译员</p>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div>
+                          <p class="text-center" style="font-size:18px;">信誉计算规则与说明</p>
+                          <div class="integral_rule">
+                            <ul class="list-group reputation_ul1">
+                              <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1、信誉会依据译员翻<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;译的效率、成果、完成度、准<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;确度、译员积分、译员等级、以<br>
+                                  &nbsp;&nbsp;及与平台合作时间来进行一份计算。</li>
+                              <li>2、信誉初始值为500信誉，没进行一任务后，都可以增加信誉。</li>
+                              <li>3、信誉会影响系统自动任务的分配译<br> &nbsp;&nbsp;员展示的排名推送等功能。</li>
+                              <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4、如若未能按照需求要求完成<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;将扣除部分的信誉度。</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <!--  tab面板切换内容结束！  -->
+
+          </div>
+          <!--    用户中心 我是客户 结束   -->
+        </div>
+      </div>
+
+      <!-- 用户指南  -->
+      <div class="messages container"></div>
+
+      <!--  login footer  -->
+      <footer class="container register_footer cl"></footer>
+    </div>
+
+  </body>
+</html>

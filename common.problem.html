@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name=" Keywords" content="......">      <!--content中，网页关键字-->
+    <meta name=" description" content="......">   <!--content中，网页描述文字-->
+    <meta name="author" content="......">        <!--标注作者-->
+    <title>帮助中心 常见问题</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/nav.css"/>
+    <link rel="stylesheet" href="css/help.center.css"/>
+    <link href="css/page.css" type="text/css" rel="stylesheet"/>
+
+
+    <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/public.nav.footer.js"></script>
+    <script type="text/javascript" src="js/help.center.js"></script>
+
+    <script type="text/javascript" src="js/page.js"></script>
+
+    <script type="text/javascript">
+    $(function(){
+
+      function tt(dd){
+          //alert(dd);
+      }
+      var GG = {
+          "kk":function(mm){
+              //alert(mm);
+          }
+      }
+
+      $("#page").initPage(100,1,GG.kk);
+      $("#page1").initPage(100,1,GG.kk);
+    })
+
+    </script>
+
+  </head>
+  <body>
+
+    <!--      顶部导航      -->
+    <div class="publickNav"></div>
+
+    <!--   正文内容   -->
+    <div class="container">
+
+      <!--   帮助中心 logo   -->
+      <div class="help_center_logo">
+        <a href="javascript:;"></a>
+      </div>
+
+      <!--   帮助中心 搜索    -->
+      <div class="help_center_search">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search for...">
+          <span class="input-group-btn">
+            <button class="btn btn-info" type="button">搜 索</button>
+          </span>
+        </div>
+      </div>
+
+      <!--  常见问题  -->
+      <div class="common_problem">
+        <div class="common_problem_title">
+          <h4>常见问题</h4>
+        </div>
+        <div class="common_problem_content">
+          <div class="common_problem_text">
+            <ul class="problems_ul"></ul>
+          </div>
+
+          <!--currentpage="1" numbercount="100"-->
+          <div class="common_problem_page"><ul class="page" maxshowpageitem="5" pagelistcount="10"  id="page"></ul></div>
+        </div>
+      </div>
+
+      <!--  我要提问  -->
+      <div class="ask_question">
+        <div class="ask_question_title">
+          <h4>我要提问</h4>
+        </div>
+        <div class="ask_question_content">
+          <textarea class="form-control question_textarea" rows="6"></textarea>
+          <button type="button" class="btn btn-info" name="button">我要提交</button>
+        </div>
+      </div>
+
+
+      <!-- 用户指南  -->
+      <div class="messages"></div>
+
+      <!--  login footer  -->
+      <footer class="container register_footer cl"></footer>
+    </div>
+
+  </body>
+</html>

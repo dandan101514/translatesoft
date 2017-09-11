@@ -1,0 +1,18 @@
+.patent_knowledge{background:#fff;box-shadow: 2px 2px 8px #ccc;margin-top: 40px;height:auto;zoom:1;padding:40px 40px 40px 60px;}
+.patent_knowledge h2{padding-bottom: 25px;}
+.patent_knowledge .patent_search{width: 600px;}
+
+/*checkbox*/
+.checks_langu{width:78%;margin-top: 40px;}
+.checks_langu>span{padding-right:0;width:100px;font-weight: 700;}
+.checks_langu .checkbox-inline{margin:0 20px 20px 20px;}
+.checbox_all{display: none;}
+.checkbox_hide{display: inline-block;}
+.checkbox_click{color:#3698d3;}
+
+/* 术语内容 列表样式 */
+.patent_lists{height: auto;width: 100%;padding:15px 0 20px 0px;margin:0 auto;margin-top: 30px;}
+.patent_lists ul{height:inherit;}
+.patent_lists ul .patent_li{margin-top: 20px;margin-right: 20px;}
+
+.inter_evaluate{border: 1px solid #ccc;padding:25px 60px 30px 25px;height: 160px;}

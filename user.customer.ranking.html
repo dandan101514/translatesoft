@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name=" Keywords" content="......">      <!--content中，网页关键字-->
+    <meta name=" description" content="......">   <!--content中，网页描述文字-->
+    <meta name="author" content="......">        <!--标注作者-->
+    <title>用户中心-我是用户-我的排名</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/nav.css"/>
+    <link rel="stylesheet" href="css/user.center.css"/>
+
+
+    <script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/public.nav.footer.js"></script>
+    <script type="text/javascript" src="js/user.center.js"></script>
+
+    <style>
+      .integralName{
+        font-size: 16px;
+      }
+      .integralName span{
+        padding-left:10px;
+      }
+      .myIntegral{
+        width:225px;
+        height:225px;
+        border-radius: 50%;
+        background:#73f1fd;
+        margin:100px auto 40px 40px;
+        padding-top:28px;
+        box-shadow: 3px 3px 5px #ccc;
+      }
+      .myIntegral p{
+        color:#9b9b9b;
+        text-align: center;
+        padding-top:20px;
+      }
+      .integral_rule .integral_rule_ul1{
+        width:300px;
+        min-height:370px;
+        margin:0 auto;
+        margin-top:10px;
+        border:1.5px solid #ccc;
+        padding:30px 20px;
+      }
+      .integral_rule .integral_rule_ul1 li{
+        padding-bottom:7px;
+      }
+    </style>
+
+  </head>
+  <body style="background:#f5f5f5;">
+    <!--      顶部导航      -->
+    <div class="publickNav"></div>
+    <!--  logo 搜索栏  -->
+    <div class="container">
+      <nav class="publickSearch"></nav>
+    </div>
+
+    <!--  用户中心内容  -->
+    <div class="user_center">
+      <div class="container">
+        <div class="title_public">
+          <h2>用户中心</h2>
+        </div>
+
+        <!--    用户中心 我是客户   -->
+        <div class="my_customer">
+          <div class="row">
+
+            <!--    用户中心 我是客户 左侧导航   -->
+            <div class="my_interpreter_left col-sm-2">
+              <ul class="my_customer_ul"></ul>
+            </div>
+
+            <!--    用户中心 我是客户 右侧内容   -->
+            <div class="my_customer_right col-sm-10">
+
+              <!--  用户中心右侧 tab切换栏   -->
+              <div class="">
+                <ul id="suerTab" class="nav nav-tabs">
+                  <li class="active"><a href="#basicdata" data-toggle="tab">我的排名</a></li>
+                </ul>
+              </div>
+
+                <!--  tab面板对应内容 我的排名  -->
+                <div class="myTabContent tab-content">
+                  <div class="tab-pane fade in active" id="basicdata" style="padding:20px 20px 30px 30px;">
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="myIntegral">
+                          <p>我的排名</p>
+                          <p>42001</p>
+                          <p>已超过了55%译员</p>
+                        </div>
+                        <p class="integralName">账户名：<span>555</span></p>
+                        <p class="integralName" style="letter-spacing:7.8px;">姓名：<span style="letter-spacing:0;">张三</span></p>
+                      </div>
+                      <div class="col-sm-6">
+                        <div>
+                          <p class="text-center" style="font-size:16px;">排名须知</p>
+                          <div class="integral_rule">
+                            <ul class="list-group integral_rule_ul1">
+                              <li>1、译员针对星级、译员等级、平台内完成的翻译量、总字数、译员积分等进行排名。</li>
+                              <li>2、排名的影响：译员的排名会在译员展示中进行排序，排名越离所排的名次越为靠前。</li>
+                              <li>3、排名关于系统的推送：排名靠前的议员在客户进行系统分配译员时，评委会依报名靠前的议员进行推送。</li>
+                              <li>4、务必针对自己的平台信息进行完善，并保证合理的完成平台分配的任务已提升自己排名。</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  tab面板切换内容结束！  -->
+              </div>
+
+            <!--    用户中心 我是客户 右侧内容 结束   -->
+
+
+        </div>
+      </div>
+      <!--    用户中心 我是客户 结束   -->
+    </div>
+      <!-- 用户指南  -->
+      <div class="messages container"></div>
+
+      <!--  login footer  -->
+      <footer class="container register_footer cl"></footer>
+
+    </div>
+  </body>
+</html>

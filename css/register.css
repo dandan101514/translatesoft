@@ -1,0 +1,226 @@
+body{
+  background: #fff;
+}
+/********* register_top  *********/
+.register_top{
+  height: 125px;
+
+}
+.register_top_logo{
+  height: 110px;
+  width:260px;
+  display: block;
+  padding-top:45px;
+  background:url(../img/logo.png) 0 center no-repeat;
+  background-size:contain;
+}
+/********* register_top over  *********/
+
+/********* register_body  *********/
+.register_body{
+  min-height:560px;
+}
+.register_body_left{
+  float: left;
+  padding-top:65px;
+}
+/* login 图标  */
+.login_pic{
+	height:150px;
+}
+.login_register{
+	display: inline-block;
+	border-left:3px solid #222;
+	height:40px;
+	padding-left:30px;
+	line-height: 40px;
+  margin-top:35px;
+}
+/* 登录 注册内容 */
+.register_body_right{
+  width: 360px;
+  min-height: 430px;
+  border:3px solid #eee;
+  margin-top:65px;
+  float: left;
+  background: #fff;
+}
+/* 手机/邮箱注册头部 */
+.header {
+	height:60px;
+  margin: 0 20px;
+	border-bottom:2px solid #ccc;
+	position:relative;
+	font-family:"Microsoft Yahei";
+}
+.header .switch {
+	height:60px;
+	position:absolute;
+	bottom:0;
+	font-size:16px;
+}
+.header .switch #switch_qlogin {
+	margin-right:35px;
+}
+.header .switch .switch_btn {
+	color:#999;
+	display:inline-block;
+	height:60px;
+	line-height:60px;
+	outline:none;
+	*hide-focus:expression(this.hideFocus=true);
+}
+.header .switch .switch_btn_focus {
+	color:#333;
+	display:inline-block;
+	height:60px;
+	line-height:60px;
+	outline:none;
+	*hide-focus:expression(this.hideFocus=true);
+}
+.header .switch .switch_btn:hover {
+	color:#333;
+	text-decoration:none;
+}
+.header .switch .switch_btn_focus:hover {
+	text-decoration:none;
+}
+#switch_bottom {
+  width: 85px;
+	position:absolute;
+  left: 0px;
+	bottom:-1px;_bottom:-2px;
+	border-bottom:4px solid #848484;
+}
+.web_qr_login,.qlogin{
+	min-height: 370px;
+  padding-top:15px;
+  padding-left: 25px;
+}
+/*手机注册面板*/
+#web_login{_left:60px;*left:0;}
+.web_login .login_form {
+	margin:0 auto;
+}
+.web_login .reg_form {
+	width:300px;
+	margin:0 auto;
+}
+.control-label{
+  padding: 0;
+}
+.message{
+  display: inline-block;
+  height:34px;
+  line-height: 34px;
+  padding-left: 0;
+}
+.radio-inline,
+.radio-inline02{
+  padding-top: 0 !important;
+  padding-left:40px;
+}
+.login_radio{
+  padding-top:8px;
+}
+.login_ckeckbox{
+  padding-left: 30px;
+  padding-top:8px;
+}
+.login_submit{
+  padding:20px 60px 10px 40px;
+}
+.login_submit>input{
+  height:40px;
+  font-size: 18px;
+}
+.cue {
+	height:35px;
+	line-height:35px;
+	font-size:14px;
+  margin:0;
+	margin-right: 20px;
+  margin-bottom: 15px;
+	text-align:center;
+  border:1px solid #eee;
+  border-radius:3px;
+}
+#regUser .col-xs-2{
+  width:17.5%;
+}
+/********* register_body over *********/
+
+
+
+
+/********  登录  ********/
+.loginIn_form {
+	height: 370px;
+  padding: 0 35px 0 35px;
+}
+.login_prompt{
+  width: 100%;
+  height:20px;
+  position: relative;
+  top:-5px;
+}
+.login_prompt p{
+  color:red;
+}
+.loginIn_use{
+  color:#333;
+	height:60px;
+	line-height:60px;
+}
+.form_sub .form-control{
+  margin-top: 20px;
+  height:40px;
+}
+.loginIn_forpass{
+  padding-top: 25px;
+  position: relative;
+}
+.loginIn_forpass .forget_password{
+  position: absolute;
+  right: 0;
+}
+#loginIn_user{
+  margin-top: 0;
+}
+#loginIn_submit{
+  margin-top: 35px;
+  height:40px;
+  font-size: 18px;
+}
+.other_uer{
+  margin-top: 30px;
+}
+.other_uer .three_party{
+  position: relative;
+}
+.other_uer .three_party{
+  position: relative;
+  margin-top: 12px;
+  height:30px;
+  line-height: 30px;
+}
+.three_party .loginIn_qq,
+.three_party .login_wx{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url(../img/qq.png) no-repeat;
+  background-size: cover;
+}
+.three_party .login_wx{
+  margin-left: 20px;
+  background: url(../img/wx.png) no-repeat;
+  background-size: cover;
+}
+.loginIn_register{
+  position: absolute;
+  right:0;
+}
+
+
+/********  登录  over ********/

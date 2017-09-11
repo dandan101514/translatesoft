@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name=" Keywords" content="......">      <!--content中，网页关键字-->
+    <meta name=" description" content="......">   <!--content中，网页描述文字-->
+    <meta name="author" content="......">        <!--标注作者-->
+    <title>用户中心-我是客户-我的订单详情</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/nav.css"/>
+    <link rel="stylesheet" href="css/user.center.css"/>
+
+
+    <script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/public.nav.footer.js"></script>
+    <script type="text/javascript" src="js/user.center.js"></script>
+
+    <style type="text/css">
+      .myOrders .table{
+        margin-top:20px;
+      }
+      .myOrders .table th{
+        text-align: center;
+        font-weight: 500;
+        vertical-align: middle;
+      }
+      .myOrders .table td{
+        text-align: center;
+        line-height: 1.5;
+        vertical-align: middle;
+        border-left:1px solid #ddd;
+        border-bottom:1px solid #ddd;
+      }
+      .myOrders .table td:first-child{
+        border-left:none;
+      }
+      .liuchenglis,.buzoulis,.daylis{
+        text-align: center;
+      }
+      .liuchenglis span{
+        display: inline-block;
+        width:81px;
+        padding-bottom:8px;
+      }
+      .buzoulis span{
+        display: inline-block;
+        width:25px;
+        height:25px;
+        border-radius:50%;
+        text-align: center;
+        line-height:25px;
+        border:1px solid #ddd;
+      }
+      .daylis span{
+        display: inline-block;
+        padding-top:8px;
+        font-size: 12px;
+        width:81px;
+      }
+      .buzoubg{
+        color:#fff;
+        background:#0a9f05;
+      }
+      .needdetails>div{
+        min-height:420px;
+      }
+      .needdetails h4{
+        font-size: 18px;
+        font-weight: 700;
+        margin:20px 0;
+      }
+      .needdetails .needdoc{
+        border:1px solid #ddd;
+        width:90%;
+        padding:20px;
+        min-height:400px;
+      }
+      .needdetails .needdoc p{
+        font-size: 12px;
+      }
+      .needdetails .needdoc p:nth-child(2),
+      .needdetails .needdoc p:nth-child(3){
+        text-indent: 2em;
+      }
+      .downloads li{
+        width:130px;
+      }
+      .downloads li a{
+        display: inline-bloxk;
+        height:60px;
+        padding-left: 10px;
+        color: #337ab7;
+        vertical-align: bottom;
+      }
+      .sureOrder{
+        padding:10px 35px;
+        position:absolute;
+        left:50px;
+        bottom:0;
+      }
+    </style>
+  </head>
+  <body style="background: #f5f5f5;">
+    <!--      顶部导航      -->
+    <div class="publickNav"></div>
+    <!--  logo 搜索栏  -->
+    <div class="container">
+      <nav class="publickSearch"></nav>
+    </div>
+
+    <!--  用户中心内容  -->
+    <div class="user_center">
+
+      <div class="container">
+        <div class="title_public">
+          <h2>用户中心</h2>
+        </div>
+
+        <!--    用户中心 我是客户   -->
+        <div class="my_customer">
+          <div class="row">
+
+            <!--    用户中心 我是客户 左侧导航   -->
+            <div class="my_customer_left col-sm-2">
+              <ul class="my_customer_ul"></ul>
+            </div>
+
+            <!--    用户中心 我是客户 我的订单 右侧内容   -->
+            <div class="my_customer_right col-sm-10">
+              <div  class="myTabContent" class="tab-content" style="margin-top:0;">
+                <h3 style="padding-bottom:20px;margin-bottom:30px;border-bottom:2px solid #ddd;font-size:20px;font-weight:700;">我的订单->订单详情</h3>
+                <div>
+                  <ul class="buzoukuai">
+                    <li class="liuchenglis">
+                      <span>生成订单</span>
+                      <span>翻译</span>
+                      <span>校对</span>
+                      <span>专家审核</span>
+                      <span>审核完成</span>
+                      <span>客户签收</span>
+                      <span>客户评价</span>
+                      <span>完成</span>
+                    </li>
+                    <li class="buzoulis">
+                      <span class="buzoubg">1</span>————<span class="buzoubg">2</span>————<span class="buzoubg">3</span>————<span class="buzoubg">4</span>————<span class="buzoubg">5</span>————<span class="buzoubg">6</span>————<span>7</span>————<span>8</span>
+                    </li>
+                    <li class="daylis">
+                      <span>2017-2-24 10:24</span>
+                      <span>2017-2-24 10:24</span>
+                      <span>2017-2-24 10:24</span>
+                      <span>2017-2-24 10:24</span>
+                      <span>2017-2-24 10:24</span>
+                      <span>2017-2-24 10:24</span>
+                      <span></span>
+                      <span></span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="myOrders">
+                  <table class="table myOrdersTable">
+                    <tr>
+                      <th>2017-2-24<br>11:47</th>
+                      <th>订单详情</th>
+                      <th>译员名</th>
+                      <th>用户名</th>
+                      <th>校对员</th>
+                      <th>金额</th>
+                      <th>状态</th>
+                    </tr>
+                    <tr>
+                      <td>订单号<br>1234567</td>
+                      <td>英文论文翻译</td>
+                      <td>张三</td>
+                      <td>pzw</td>
+                      <td>李四</td>
+                      <td>￥700<br><span>已支付</span></td>
+                      <td><span style="color:red;">已成交</span><br><a href="">未评价</a></td>
+                  </table>
+                </div>
+                <div class="row needdetails">
+                  <div class="col-sm-6">
+                    <h4>需求详情</h4>
+                    <div class="needdoc">
+                      <p>需求描述：</p>
+                      <p>一套人工翻译系统的软件开发，可以像微信一样。</p>
+                      <p>类似微信的，可以翻译的，客人用的是英文，对话就直接转化中文，第三方人工翻译，表情，朋友圈，支付，安卓，苹果系统的，没有具体的文档，品牌已经注册的。</p>
+                      <td>pzw</td>
+                      <p>预算：待商议</p>
+                      <p>工期：待定</p>
+                      <p>注：在猪八戒网线上交易，对双方都有保障的 <a href="">查看全文</a></p>
+                      <p>应用平台：<br>Androidbr <br>ios</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-6" style="position:relative;">
+                    <h4>译员上传文件下载：</h4>
+                    <ul class="list-inline downloads">
+                      <li><img src="http://via.placeholder.com/55x60" alt=""><a href="">下载</a></li>
+                      <li><img src="http://via.placeholder.com/55x60" alt=""><a href="">下载</a></li>
+                      <li><img src="http://via.placeholder.com/55x60" alt=""><a href="">下载</a></li>
+                    </ul>
+                    <button class="btn btn-info sureOrder">确认完成订单</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--    用户中心 我是客户 我的订单 右侧内容 结束   -->
+          </div>
+          <!--    用户中心 我是客户 结束   -->
+        </div>
+      </div>
+
+      <!-- 用户指南  -->
+      <div class="messages container"></div>
+
+      <!--  login footer  -->
+      <footer class="container register_footer cl"></footer>
+    </div>
+
+    <script type="text/javascript">
+      $(function(){
+        $(".cus_iter_navlists a").removeClass("useractive")
+        $(".cus_iter_navlists").eq(2).find("a").addClass("useractive")
+      });
+      
+    </script>
+  </body>
+</html>

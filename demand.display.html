@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name=" Keywords" content="......">      <!--content中，网页关键字-->
+    <meta name=" description" content="......">   <!--content中，网页描述文字-->
+    <meta name="author" content="......">        <!--标注作者-->
+    <title>需求的展示</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/nav.css"/>
+    <link rel="stylesheet" href="css/page.css" type="text/css"/>
+    <link rel="stylesheet" href="css/demand.display.css"/>
+
+    <script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/public.nav.footer.js"></script>
+    <script type="text/javascript" src="js/all.needs.js"></script>
+    <script type="text/javascript" src="js/page.js"></script>
+
+    <script type="text/javascript">
+    $(function(){
+      function tt(dd){
+          //alert(dd);
+      }
+      var GG = {
+          "kk":function(mm){
+              //alert(mm);
+          }
+      }
+      $("#page").initPage(100,1,GG.kk);
+      $("#page1").initPage(100,1,GG.kk);
+    })
+
+    </script>
+  </head>
+  <body style="background:#f5f5f5;">
+    <!--      顶部导航      -->
+    <div class="publickNav"></div>
+    <!--   正文内容   -->
+    <div class="container">
+      <!--  logo 搜索栏  -->
+      <nav class="publickSearch"></nav>
+
+      <!--  内容头部导航  -->
+      <div class="contentNav"></div>
+
+      <!--  需求展示  开始  -->
+      <div class="demand_display_content">
+        <div class="row">
+          <div class="demand_left col-sm-9">
+            <div class="demand_form">
+              <form class="form-inline">
+                <div class="form-group">
+                  <select class="form-control" name="">
+                    <option value="">跨境电商</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <select class="form-control" name="">
+                    <option value="">500元——1000元</option>
+                  </select>
+                </div>
+                <div class="input-group pull-right">
+                  <input type="text" class="form-control" placeholder="Search for...">
+                  <span class="input-group-btn">
+                    <button class="btn btn-info" type="button">搜索</button>
+                  </span>
+                </div>
+              </form>
+            </div>
+            <div class="checks_langu row">
+              <span class="col-sm-1">选择语种：</span>
+              <div class="col-sm-10">
+                <label class="checkbox-inline">
+                  <input type="checkbox" id="langue01" value="option1"> 汉译英
+                </label>
+                <label class="checkbox-inline">
+                  <input type="checkbox" id="langue02" value="option2"> 英译汉
+                </label>
+                <label class="checkbox-inline">
+                  <input type="checkbox" id="langue03" value="option3"> 英译韩
+                </label>
+                <label class="checkbox-inline">
+                  <input type="checkbox" id="langue03" value="option3"> 韩译英
+                </label>
+                <label class="checkbox-inline">
+                  <input type="checkbox" id="langue03" value="option3"> 英译日
+                </label>
+                <label class="checkbox-inline">
+                  <input type="checkbox" id="langue03" value="option3"> 日译英
+                </label>
+                <label class="checkbox-inline">
+                  <input type="checkbox" id="langue03" value="option3"> 英译俄
+                </label>
+                <label class="checkbox-inline">
+                  <input type="checkbox" id="langue03" value="option3"> 俄译英
+                </label>
+                <div class="checbox_all">
+                  <label class="checkbox-inline">
+                    <input type="checkbox" id="langue03" value="option3"> 俄译英
+                  </label>
+                </div>
+                <span class="checkbox-inline checkbox_click">展示更多 <i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
+              </div>
+            </div>
+
+            <!--  我要投标列表  -->
+            <div class="demand_lists">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <h5>置顶</h5>
+                  <div class="row list_content">
+                    <div class="col-sm-6 list_one">
+                      <p><span class="text-primary">￥2000.00</span><span>百度-点心项目 俄语</span></p>
+                      <p>源语言：<span>中文</span> 目标语言：<spna>俄语</span> | 字数：<span>7608字</span></p>
+                    </div>
+                    <span class="col-sm-1 states">已托管</span>
+                    <div class="col-sm-3 attend_preson">
+                      <p><span>10</span>人参与 | 招标</p>
+                      <p>2天后截止</p>
+                    </div>
+                    <div class="col-sm-2">
+                      <button type="button" class="btn btn-info" name="button">我要投标</button>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="list-group-item">
+                  <h5>置顶</h5>
+                  <div class="row list_content">
+                    <div class="col-sm-6 list_one">
+                      <p><span class="text-primary">￥2000.00</span><span>帝吧出征之朱镕基回答台湾问题新闻稿件</span></p>
+                      <p>源语言：<span>中文</span> 目标语言：<spna>阿拉伯语</span> | 字数：<span>460字</span></p>
+                    </div>
+                    <span class="col-sm-1 states">已托管</span>
+                    <div class="col-sm-3 attend_preson">
+                      <p><span>10</span>人参与 | 招标</p>
+                      <p>已截止</p>
+                    </div>
+                    <div class="col-sm-2">
+                      <button type="button" class="btn btn-info" disabled name="button">我要投标</button>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="list-group-item">
+                  <h5>置顶</h5>
+                  <div class="row list_content">
+                    <div class="col-sm-6 list_one">
+                      <p><span class="text-primary">￥2000.00</span><span>百度-点心项目 俄语</span></p>
+                      <p>源语言：<span>中文</span> 目标语言：<spna>俄语</span> | 字数：<span>7608字</span></p>
+                    </div>
+                    <span class="col-sm-1 states">已托管</span>
+                    <div class="col-sm-3 attend_preson">
+                      <p><span>10</span>人参与 | 招标</p>
+                      <p>2天后截止</p>
+                    </div>
+                    <div class="col-sm-2">
+                      <button type="button" class="btn btn-info" name="button">我要投标</button>
+                    </div>
+                  </div>
+                </li>
+
+
+              </ul>
+              <!--currentpage="1" numbercount="100"-->
+              <div class="common_problem_page"><ul class="page pull-right" style="margin-top:20px;" maxshowpageitem="5" pagelistcount="10"  id="page"></ul></div>
+            </div>
+
+          </div>
+          <div class="demand_right col-sm-3">
+            <h5>热点需求</h5>
+            <div class="wraper_need">
+              <div class="hot_need">
+                <img src="http://via.placeholder.com/230x120" alt="">
+                <p class="explian">翻译/英语翻译/医学翻译/机械翻译/化妆品翻译/说明书翻译</p>
+                <p class="explian">
+                  <span>价格 <span>120.00</span></span>
+                  <a href="javascript:;">查看需求</a>
+                </p>
+              </div>
+              <div class="hot_need">
+                <img src="http://via.placeholder.com/230x120" alt="">
+                <p class="explian">翻译/英语翻译/医学翻译/机械翻译/化妆品翻译/说明书翻译</p>
+                <p class="explian">
+                  <span>价格 <span>120.00</span></span>
+                  <a href="javascript:;">查看需求</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  需求展示结束  -->
+
+      <!-- 用户指南  -->
+      <div class="messages container"></div>
+
+      <!--  login footer  -->
+      <footer class="container register_footer cl"></footer>
+    </div>
+
+    <script type="text/javascript">
+      var icon = '<i class="fa fa-angle-double-right" aria-hidden="true"></i>'
+      $(".checkbox_click").click(function(){
+        if($(".checbox_all").hasClass("checkbox_hide")){
+          $(".checbox_all").removeClass("checkbox_hide");
+          $(".checkbox_click").html(" 展示更多 "+icon);
+        }else{
+          $(".checbox_all").addClass("checkbox_hide");
+          $(".checkbox_click").text(" 收起");
+        }
+
+      })
+    </script>
+
+  </body>
+</html>

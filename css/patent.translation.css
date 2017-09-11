@@ -1,0 +1,15 @@
+.patent_translations_content{margin-top: 40px;background:#fff;box-shadow: 2px 5px 15px #ccc;padding-right: 10px;padding-bottom: 80px;}
+.patent_translations_content .translations_left{height:auto;padding:50px 20px 80px 38px;}
+.patent_translations_content .translations_right{height:auto;margin-top:50px;position: relative;left:-20px;}
+
+.translations_left div img{width:780;height:240px;display: block;margin:0 auto;border-radius:7px;}
+.translations_left .text_content{ width:780px;margin: 0 auto;margin-top: 50px;}
+
+.hot_needs h4{font-weight: 700;height:30px;line-height: 30px;margin-bottom: 30px;}
+.translations_right .hot_needs{height:auto;}
+.translations_right .hot_needs .hot_needs_cards{background: #f2f2f2;padding:20px;margin-bottom: 20px;box-shadow: 2px 2px 8px #ccc}
+.translations_right .hot_needs .hot_needs_cards h5 a{font-weight: 700;margin-bottom: 5px;display: block}
+.translations_right .hot_needs .hot_needs_cards h5 a:hover{color: #357ac8;}
+.translations_right .hot_needs .hot_needs_cards p{}
+.translations_right .hot_needs .hot_needs_cards .hot_cards_text{line-height: 1.5;}
+.hot_advert{width:270px;height:140px;box-shadow: 2px 2px 8px #ccc}

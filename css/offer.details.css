@@ -1,0 +1,22 @@
+/* 翻译报价表  样式 */
+.offer_content{padding:50px 0;height:auto;;}
+.offer_content h1{font-size: 26px;font-weight: 700;padding-bottom: 30px;position: relative;left:0px;}
+.offer_content .offer_h4{font-size: 16px;font-weight: 700;margin-bottom: 20px;display: inline-block;border-bottom:4px solid #8db5e3;padding:0 5px 7px 5px;}
+.offer_content .offer_select_table{background:#fff;padding:30px 50px;margin-bottom: 30px;box-shadow: 2px 2px 8px #ccc}
+.offer_content .offer_select_table .offer_lan{width:140px;margin:30px 0;}
+
+/* 备注样式  样式 */
+.offer_remark .offer_remark_h4{margin-top:20px;}
+.offer_remark .offer_remark_lists{margin:40px 0 60px 0;}
+.offer_remark .offer_remark_lists li{line-height: 2}
+.offer_button{padding-left:20px;padding-right:20px;margin-left: 14px;}
+.offer_inquiry_price,.offer_wait_pre{display: inline-block;line-height: 34px;margin-left: 20px}
+.offer_wait_pre{text-align: right;}
+
+/* 在线询价  样式 */
+.offer_inquiry{background:#fff;padding:60px 40px;box-shadow: 2px 2px 8px #ccc}
+.offer_inquiry .offer_width{width:45%;}
+.offer_table tr th,.offer_table tr td{text-align: center;}
+
+.questions{display: inline-block;height:34px;width:34px;line-height: 34px}
+.questions .help_text,.questions .help_zhouqi_text{position:absolute;left:20px;z-index:1;width:500px;background:#f1f1f1;padding:10px 20px;box-shadow: 2px 5px 10px #ccc;border-radius: 3px;display: none;}

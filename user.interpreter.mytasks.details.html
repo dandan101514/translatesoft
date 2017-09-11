@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name=" Keywords" content="......">      <!--content中，网页关键字-->
+    <meta name=" description" content="......">   <!--content中，网页描述文字-->
+    <meta name="author" content="......">        <!--标注作者-->
+    <title>用户中心-我是议员-我的任务详情</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/nav.css"/>
+    <link rel="stylesheet" href="css/user.center.css"/>
+
+
+    <script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/public.nav.footer.js"></script>
+    <script type="text/javascript" src="js/user.center.js"></script>
+    <script type="text/javascript" src="js/user.customer.myneeds.js"></script>
+    <style>
+      .myneeds_top{background:#f1f1f1;padding:30px 20px 20px 30px;}
+      .list_padding li{padding-right:30px;padding-bottom: 10px;}
+    </style>
+  </head>
+  <body style="background: #f5f5f5;">
+    <!--      顶部导航      -->
+    <div class="publickNav"></div>
+    <!--  logo 搜索栏  -->
+    <div class="container">
+      <nav class="publickSearch"></nav>
+    </div>
+
+    <!--  用户中心内容  -->
+    <div class="user_center">
+
+      <div class="container">
+        <div class="title_public">
+          <h2>用户中心</h2>
+        </div>
+
+
+        <!--    用户中心 我是议员   -->
+        <div class="my_customer">
+          <div class="row">
+
+            <!--    用户中心 我是议员 左侧导航   -->
+            <div class="my_customer_left col-sm-2">
+              <ul class="my_interpreter_ul"></ul>
+            </div>
+
+            <!--    用户中心 我是议员 我的需求 右侧内容   -->
+            <div class="my_customer_right col-sm-10">
+              <!--  用户中心右侧 tab切换栏   -->
+              <ul id="suerTab" class="nav nav-tabs">
+              	<li class="active"><a href="javascript:;" data-toggle="tab">我的任务</a></li>
+              </ul>
+
+              <div  class="myTabContent" class="tab-content">
+                <div><h4 style="font-weight:600;padding-bottom:40px;font-size:16px;"><a style="font-size:16px;" href="user.interpreter.mytasks.html">我的任务-></a> 任务详情</h4></div>
+                <div class="myneeds_top">
+                  <ul class="list-inline list_padding">
+                    <li>需求领域：<spna>教育行业</span></li>
+                    <li>需求类别：<spna>英译汉</span></li>
+                    <li>议员级别：<spna>三级</span></li>
+                    <li>流程类型：<spna>仅翻译</span></li>
+                    <li>完成时间：<spna>3天</span></li>
+                    <li>手机号：<spna>1562653545</span></li>
+                    <li>QQ号：<spna>102456211</span></li>
+                  </ul>
+                </div>
+                <div class="myneeds_body">
+                  <h4 style="font-weight:600;padding:30px 0;">需求详情</h4>
+                  <div style="border:1px solid #ccc;padding:30px 20px;position:relative;">
+                    <p>需求描述：</p>
+                    <p style="text-indent:2em;">一套人工翻译系统的软件开发，可以像微信一样。</p>
+                    <p style="text-indent:2em;">
+                      类似微信的，可以翻译的，客人用的是英文，对话就直接转化成中文，第三方人工来翻译，表情，朋友圈，支付，安卓，苹果系统的，
+                      没有具体的文档，品牌已经注册的。
+                    </p>
+                    <p>预算：待商议</p>
+                    <p>预算：待定</p>
+                    <p>注：在猪八戒网线上交易，对双方都有保障的查看全文</p>
+                    <p>Android、IOS</p>
+                    <div style="width:200px;height:50px;position:absolute;right:0px;bottom:20px;">
+                      翻译文件
+                      <img src="http://via.placeholder.com/50x50" alt="">
+                      <a style="position:relative;top:30px;color:#4286d4;" href="">下载</a>
+                    </div>
+                  </div>
+                  <div style="padding-top:15px;">
+                    <p>发布时间：<span style="padding-right:30px;">2017-02-03</span> 需求编号：<span>158923</span></p>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+            </div>
+            <!--    用户中心 我是议员 我的需求 右侧内容 结束   -->
+
+          </div>
+          <!--    用户中心 我是议员 结束   -->
+        </div>
+      </div>
+
+      <!-- 用户指南  -->
+      <div class="messages container"></div>
+
+      <!--  login footer  -->
+      <footer class="container register_footer cl"></footer>
+    </div>
+
+    <script type="text/javascript">
+      $(function(){
+        $(".cus_iter_navlists a").removeClass("useractive")
+        $(".cus_iter_navlists").eq(1).find("a").addClass("useractive")
+      });
+      
+    </script>
+  </body>
+</html>

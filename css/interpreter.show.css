@@ -1,0 +1,16 @@
+/*  译员展示页面  样式  */
+.interpreter_conts{background: #fff;height: auto;margin-top: 40px;padding:50px 40px 80px 40px;box-shadow: 2px 2px 8px #ccc;}
+.interpreter_search{height:auto;padding-top:30px;padding-bottom: 50px;border-bottom: 1px dashed #ccc;}
+.interpreter_search form select{margin-right: 20px;}
+.select_wid{display: inline-block;min-width:140px !important;}
+
+/*checkbox*/
+.checks_langu{margin-top: 40px;width:75%;}
+.checks_langu>span{padding-right:0;width:100px;font-weight: 700;}
+.checks_langu .checkbox-inline{margin:0 20px 20px 20px;}
+.checbox_all{display: none;}
+.checkbox_hide{display: inline-block;}
+.checkbox_click{color:#3698d3;}
+
+.index_linguister_card {margin: 0 auto;}
+.index_linguister_card .append_card,.index_linguister_card .cards_one{margin: 20px 25px;}

@@ -1,0 +1,59 @@
+/*  译员详情页面  样式  */
+.interpreter_details{background:#fff;box-shadow: 2px 2px 8px #ccc;margin-top: 40px;height:auto;zoom:1;}
+
+/*  译员详情页面 left  样式  */
+.interpreter_details_left{padding:0 70px 80px 50px ;margin-top: 50px;margin-bottom: 60px;}
+.interpreter_details_left .basic_data{padding-bottom: 60px;}
+.interpreter_details_left .basic_data h4{font-weight: 700;margin-bottom: 30px;}
+
+/* 译员基本资料  开始 */
+.head_portrait{width:20%;height: ;float:left;}
+.head_portrait img{width:110px;height: 130px;}
+
+.per_details{width:78%;float:left;}
+.per_details li{margin-top: 5px;width:30%;}
+.per_details li:last-child{width:100%;margin-top: 15px;}
+.per_details li:last-child button{padding:5px 30px 5px 30px;}
+/* 译员基本资料  结束 */
+
+/*  译员作品列表  开始  */
+.inter_works{height: 260px;width: 100%;background: #f1f1f1;padding:15px 0 20px 40px;}
+.inter_works ul{margin:;height:220px;overflow-y: scroll;}
+.inter_works ul .works_lists{margin-top: 20px;margin-right: 40px}
+.inter_works ul .works_lists p:first-child{font-weight: 700;}
+.inter_works ul .works_lists p:last-child a{color:#8db5e3;}
+
+.inter_evaluate{border: 1px solid #ccc;padding:25px 60px 30px 25px;height: 160px;}
+/*  译员作品列表  结束  */
+
+/*  译员作品详情  开始  */
+.project{border-bottom:1px solid #ccc;padding-bottom: 15px;margin-right: 120px}
+.project strong{display: block;}
+.project .lang_pre{display: inline-block;margin-right: 40px;margin-top: 10px}
+
+.works_pic{padding-top:30px;}
+.works_pic .four_flash{width: 65%;height:100px;margin-left: 0}
+.works_pic .four_flash .flashBg{width: 75%;height: 100px;}
+.works_pic .four_flash .flashBg .mobile li{width: 85px; height:95px;margin-left: 10px}
+.works_pic .four_flash .flashBg .mobile li img{width: 75px; height:85px;}
+.but_pre,.but_next{width:30px;height:70px;background:#f1f1f1;position:absolute;text-align: center;line-height: 70px;top:15px;cursor: pointer;}
+.works_pic .four_flash .but_pre{left:0px;}
+.works_pic .four_flash .but_next{right:0px;}
+/*  译员作品详情  结束  */
+
+/*  客户评价  开始 */
+.customer_evaluate li{border-bottom:1px solid #f1f1f1;padding-bottom:10px;padding-top: 25px;}
+.customer_evaluate li:last-child{border-bottom:none;}
+.customer_evaluate li p{text-align: right;padding-top: 5px}
+/*  客户评价  结束  */
+/*  译员详情页面 left  样式  */
+
+/*  译员详情页面 right  样式  */
+.interpreter_details_right{margin-top: 50px;padding:30px 35px 30px 15px;position: relative;left: -20px;}
+.interpreter_details_right .recommend h4{font-weight: 700;margin-bottom: 30px;}
+.interpreter_details_right .recommend ul{background: #f1f1f1;padding:30px 20px 50px 20px;}
+.recommend .recommend_cards{padding-bottom:30px;border-bottom:2px dashed #ccc;margin-bottom: 25px}
+.recommend .recommend_cards:last-child{border: none;}
+.recommend .recommend_cards img{width:110px height:130px;}
+.recommend_cards .demand_employer_details{display: inline-block;margin-left: 20px;text-align: center;}
+.recommend_cards .recommend_btns a{padding:3px 18px;margin-top: 25px;margin-left: 15px}

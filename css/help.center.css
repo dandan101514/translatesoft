@@ -1,0 +1,197 @@
+.help_center_logo{
+  height: 80px;
+  line-height: 80px;
+}
+.help_center_logo>a{
+  width: 260px;
+  height: inherit;
+  display: inline-block;
+  background: url(../img/logo.png) center no-repeat;
+  background-size: contain;
+  float: left;
+}
+.help_center_logo>h1{
+  width: 220px;
+  height: inherit;
+  vertical-align: 5px;
+  line-height: 80px;
+  padding-left: 20px;
+  display: inline-block;
+  float: left;
+}
+
+.help_center_search{
+  height: 150px;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+.help_center_search>.input-group{
+  width: 600px;
+  margin: 0 auto;
+}
+.help_center_search input,
+.help_center_search button{
+  height: 40px;
+}
+.help_center_search button{
+  width:90px;
+  font-size: 16px;
+}
+.common_question_title{
+  height: 50px;
+}
+.common_question_title span{
+  font-size: 20px;
+  padding-right: 30px;
+  font-weight: 700;
+}
+.common_question_tab{
+  height: 280px;
+  width: 100%;
+}
+.nav-tabs>li{
+  width:120px;
+  text-align: center;
+}
+.nav-tabs>li.active>a{
+  font-size: 16px;
+  background: #f2f2f2 !important;
+  color: #4286d4 !important;
+}
+#myTabContent{
+  height:210px;
+  background: #f2f2f2;
+  border: 1px solid #ddd;
+  border-top: 0;
+}
+
+/*  联系我们 */
+.common_contact_us{
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.common_question_list li{
+  list-style-type: disc;
+  margin-left: 60px;
+  padding-top: 40px;
+}
+.contact_us{
+  height: 240px;
+  width: 100%;
+  background: #f2f2f2;
+}
+.contact_us div{
+  text-align: center;
+}
+.contact_us p{
+  height: 60px;
+  text-align: center;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+
+.contact_us h4{
+  font-weight: 700;
+  padding-bottom: 15px;
+  padding-top: 50px;
+  text-align: center;
+}
+.contact_us a.btn-info{
+  color: #fff;
+  width: 125px;
+  display: inline-block;
+  height: 40px;
+  line-height: 28px;
+}
+
+/*  帮助中心首页结束 */
+
+/*  常见问题页面  */
+.common_problem{
+  padding-bottom: 60px;
+  border-bottom: 1px dashed #222;
+}
+.common_problem_title h4,
+.ask_question_title h4{
+  font-size: 20px;
+  font-weight: 700;
+}
+.common_problem_content{
+  width: 100%
+  min-height: 400px;
+  margin-top: 40px;
+
+}
+
+.common_problem_text{
+  height: inherit;
+  background: #f2f2f2;
+  padding:35px 25px 25px 25px;
+}
+.common_problem_page{
+  margin-top: 30px;
+  text-align: right;
+}
+.common_problem_page .page{
+  float: right;
+}
+
+.problemLists{
+  min-height:110px;
+  width: 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.problemLists .nums{
+  display: inline-block;
+  width: 25px;
+  font-size: 16px;
+  font-weight: 700;
+  padding-right: 10px;
+  text-align: center;
+}
+.problemLists h5{
+  display: inline-block;
+  width: auto;
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.problemLists p,
+.problemLists .promble_span_more{
+  padding-left: 25px;
+
+}
+.problemLists .problemLists_p{
+  height: auto;
+  overflow: hidden;
+  padding-right: 50px;
+}
+
+.problemLists .promble_span_more{
+  display: inline-block;
+  padding-top: 8px;
+  color: #8db5e3;
+  cursor: pointer;
+}
+
+/* 我要提问  */
+.ask_question{
+  margin-top: 50px;
+  height: auto;
+}
+.ask_question_content{
+  width: 100%;
+  height: 200px;
+}
+.ask_question_content .question_textarea{
+  margin-top: 20px;
+}
+.ask_question_content button{
+  height: 40px;
+  padding:0 28px;
+  margin-top: 20px;
+}
+
+/*  常见问题页面   结束  */

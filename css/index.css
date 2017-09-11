@@ -1,0 +1,110 @@
+.more_color,.more_color：hover,.more_color:link,.more_color:active,.more_color:visited{color:#8db5e3;}
+
+
+/* 轮播区域 */
+.index_carousel{height: 340px;margin-top: 10px;}
+.index_carousel_left{height: inherit;padding-right: 0px;}
+.index_carousel_left #carousel-example-generic{height:inherit;}
+.index_carousel_right{height:inherit;}
+
+/* 轮播区域卡片列表 */
+.news_list{height: 190px;width: 100%;overflow: hidden;margin-bottom: 10px;border: 1px solid #ccc;}
+.news_list_left{width: 50px;height: inherit;border-right: 2px solid #ccc;}
+.news_list_left_li{padding:21px 0;text-align: center;;}
+.news_list_right li{width: 100%;margin-left: 13px;margin-right: 15px;padding-left:0;padding-right: 0;overflow: hidden;border: none;}
+.news_list_right .list-group-item{margin-bottom: 0;border-bottom: 1px dashed #222;}
+.news_list_right li i{font-size: 5px;margin-right: 3px;}
+.advert_pic{width: 100%;height:140px;overflow: hidden;}
+
+/* icons  */
+.index_icons{height:70px;margin-top: 20px;padding:0 25px;margin-bottom: 80px;}
+.index_icons_list li{height:70px;line-height: 70px;margin-left: 145px;}
+.index_icons_list li i,
+.index_icons_list li span{height:70px;color: #4286d4;display: inline-block;line-height: 70px;vertical-align: middle;}
+.index_icons_list li span{padding-left:20px;font-size: 16px;}
+
+/* 价格 */
+.index_prices{height:85px;}
+.index_prices_li{margin-left: 174px;margin-right: 115px;height: 85px;text-align: center;}
+.index_prices_li h3{color: #f00314;font-size: 22px;padding:15px 0 13px  0;}
+.index_prices_li p{font-size: 16px;font-weight: 700;}
+
+/* 专利翻译精英  */
+.index_linguister{height: auto;margin-top: 50px;}
+.index_linguister_header{height: 60px;background: #08A5E0;margin-top: 30px;box-shadow: 2px 2px 8px #ccc}
+.index_linguister_header .index_linguister_h2{height: 60px;line-height: 60px;padding-left: 30px;padding-right: 160px;display: inline-block;font-size: 24px;color:#fff;}
+.index_linguister_header .index_linguister_p{display: inline-block;vertical-align:3px;}
+.index_linguister_header .index_linguister_p button{margin-right: 23px;}
+.index_linguister_header .more_color{display: inline-block;width: 320px; text-align: right;color:#fff;}
+.index_linguister_chevron a i{height: 60px;line-height: 60px;padding-right: 25px;padding-left: 15px;color:#4286d4;}
+
+.index_costumer{height: 25px;margin:20px 0 40px 0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;}
+.index_costumer_lits li{height: 25px;line-height: 25px;padding-left:60px;}
+.cards_num{text-align: right;padding-right: 30px;}
+.cards_num span{display: inline-block;padding:0 20px;color:red;}
+
+/*  找需求  开始  */
+.index_needers_card{margin-top: 20px;}
+.needers_cards{width: 280px;height: 150px;float:left;margin:20px 10px 10px 10px;background: #fff;padding-right: 15px;border: 1px solid #ccc;box-shadow: 3px 3px 10px #ccc;}
+.needers_cards_title{height: 30px;width: inherit;border-bottom:1px solid #ccc;}
+.needers_cards_title h5{line-height:30px;padding-left:20px;}
+.needers_cards_content{height:118px;width: inherit;}
+.needers_cards_content_left{width:72px;height: inherit;text-align: center;border-right: 1px solid #ccc;}
+.needers_cards_content_left a{line-height: 35px;}
+
+.needers_cards_content_right{height: inherit;width:200px;padding-top:25px;padding-left: 25px;}
+.needers_cards_content_right p span{padding-right:10px;}
+/*  找需求  结束  */
+
+/* 优秀案例展示  开始 */
+    /*样式在next.pic.css  里面*/
+/*  优秀案例展示  结束  */
+
+/* 爱译智能-PAT软件  开始 */
+.intelligent_software .honor_map{margin:0 auto;width:1200px;height:200px;margin-top: 10px;margin-bottom: 30px;}
+.sofe_down .wraper_left{padding-left:50px;margin-top: 50px;margin-bottom: 60px;}
+.sofe_down .wraper_left h3{font-size: 18px;margin-bottom: 20px;font-weight: 700;margin-left: 20px}
+.msg-l{float:left;overflow:hidden;margin:0 60px 0 20px;padding-bottom: 35px;background-color:#fff;}
+.msg-list{padding:12px 0;float:left;}
+.msg-list li{width:200px;float:left;height:30px;overflow:hidden;margin:0 24px 10px 0;display:inline;}
+.msg-list li .stars{margin-top:3px;}
+.msg-list li .sub{color:#999;}
+.stars,.stars span{background:url(http://www1.pconline.com.cn/2015/dl/common/images/bg.png) no-repeat -96px -16px;line-height:0; overflow:hidden;display:inline-block;vertical-align: top;}
+.stars{ width:79px;height:13px;}
+.stars span{height:13px;background-position:-96px -30px;}
+.lab_check{margin:25px 0;}
+.dl-area .btn{color:#fff;padding:7px 25px;margin-right: 20px;}
+.sofe_down_details{height:300px;background:#f1f1f1;}
+.sofe_down_details{padding:20px;}
+.sofe_down_details ul li{padding-bottom: 8px}
+.sofe_down_details ul li h3{font-size: 16px;font-weight: 500!important}
+/* 爱译智能-PAT软件  开始 */
+
+
+/* 在线询价 在线咨询 */
+.index_online{height:320px;width: 100%;margin-top: 50px;}
+.index_online .index_online_inquiry .reproduction{height:320px;background:#f1f1f1;margin-top: 20px;font-size: 20px;font-weight: 700;text-align: center;line-height: 320px}
+/* 在线询价 */
+.form_inquiry{margin-top: 20px;}
+.wait_pre{height:34px;line-height: 34px;display: inline-block;text-align: left;}
+.questions{display: inline-block;height:34px;width:34px;line-height: 34px}
+.questions .help_text,.questions .help_zhouqi_text{position:absolute;left:20px;z-index:1;width:500px;background:#f1f1f1;padding:10px 20px;box-shadow: 2px 5px 10px #ccc;border-radius: 3px;display: none;}
+
+/* 在线咨询 */
+.linguister_content{padding:20px;margin-top: 10px;}
+.linguister_tel{height:30px;line-height: 30px;margin-bottom: 10px;}
+.linguister_button{text-align: right;padding-top:20px;}
+/*在线询价 在线咨询 结束*/
+
+/* 环宇爱译 中国专利翻译第一品牌  开始 */
+.index_first_brand .row{margin-top: 40px;margin-bottom: 60px}
+.index_first_brand .first_brand_details{height: 400px; background: #f1f1f1;text-align: center;}
+.index_first_brand .first_brand_video{height: 400px; background: #f1f1f1;}
+/* 环宇爱译 中国专利翻译第一品牌  结束 */
+
+/*在线翻译*/
+.online_inquiry_content{padding:20px;}
+.online_inquiry_content_top{margin-bottom: 20px;}
+.online_inquiry_content_top div button{padding:5px 30px;margin-left: 15px;}
+
+/*在线翻译 结束*/

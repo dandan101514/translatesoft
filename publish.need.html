@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name=" Keywords" content="......">      <!--content中，网页关键字-->
+    <meta name=" description" content="......">   <!--content中，网页描述文字-->
+    <meta name="author" content="......">        <!--标注作者-->
+    <title>发布需求</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/nav.css"/>
+    <link rel="stylesheet" href="css/publish.need.css"/>
+    <link rel="stylesheet" href="css/progress.bar.css"/>
+
+    <script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/public.nav.footer.js"></script>
+    <script type="text/javascript" src="js/publish.need.js"></script>
+
+    <style>
+      .filesUp{
+        width: 100%;
+        height: 34px;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .files_name{
+        height:34px;
+        margin-left:30px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        line-height: 34px;
+        padding:0 10px;
+      }
+    </style>
+  </head>
+  <body style="background:#f1f1f1;">
+    <!--      顶部导航      -->
+    <div class="publickNav"></div>
+
+    <!--   正文内容   -->
+    <div class="container">
+
+      <!--  logo 搜索栏  -->
+      <nav class="publickSearch"></nav>
+
+      <!--  内容头部导航  -->
+      <div class="contentNav"></div>
+
+      <!--  发布需求 开始  -->
+      <div class="publish_need">
+        <div class="publish_progress">
+          <ul class="nav nav-pills nav-justified step step-round" data-step="3">
+    				<li>
+    					<a>选择类目，描述您的需求</a>
+    				</li>
+    				<li>
+    					<a>提交需求</a>
+    				</li>
+    				<li>
+    					<a>托管赏金</a>
+    				</li>
+    			</ul>
+        </div>
+
+        <div class="publish_contents">
+          <div class="publish_contents_left col-sm-9">
+            <form class="" action="" method="post">
+              <div class="publish_contents_div">
+                <h5>选择需求类别</h5>
+                <div class="row">
+                  <ul class="list-inline publish_contents_lists height_list col-sm-10">
+                    <li>汉译英</li>
+                    <li>英译汉</li>
+                    <li>韩译汉</li>
+                    <li>汉译韩</li>
+                    <li>日译汉</li>
+                    <li>汉译日</li>
+                    <li>德译汉</li>
+                    <li>汉译德</li>
+                    <li>俄译汉</li>
+                    <li>汉译俄</li>
+                  </ul>
+                  <span class="col-sm-2 btn_more">展开更多</span>
+                </div>
+              </div>
+
+              <div class="publish_contents_div">
+                <h5>选择需求类别</h5>
+                <div class="row">
+                  <ul class="list-inline publish_jobs_lists height_list col-sm-10">
+                    <li>金融财金</li>
+                    <li>电子电工</li>
+                    <li>教育行业</li>
+                    <li>医药行业</li>
+                    <li>信息产业</li>
+                    <li>食品行业</li>
+                    <li>工业行业</li>
+                    <li>销售行业</li>
+                  </ul>
+                  <span class="col-sm-2 btn_more_job">展开更多</span>
+                </div>
+              </div>
+
+              <div class="form-group publish_contents_div">
+                <div class="row">
+                  <h5 class="col-sm-1 control-label">议员等级</h5>
+                  <div class="col-sm-3">
+                    <select class="form-control" name="">
+                      <option value="">三级</option>
+                      <option value="">四级</option>
+                      <option value="">五级</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group publish_contents_div">
+                <div class="row">
+                  <h5 class="col-sm-1 control-label">流程类型</h5>
+                  <div class="col-sm-3">
+                    <select class="form-control" name="">
+                      <option value="仅翻译">仅翻译</option>
+                      <option value="翻译+校对">翻译+校对</option>
+                      <option value="翻译+校对+审核">翻译+校对+审核</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="publish_contents_div">
+                <h5 class="control-label" style="margin-bottom:15px;">留下您的手机号,以便更好的为您服务</h5>
+                <div class="form-group row" style="margin-bottom:15px;">
+                  <label for="needtel" class="col-sm-1 control-label text_label">手机号</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="needtel" name="" value="">
+                  </div>
+                  <span style="color:red;height:34px;line-height:34px">必填</span>
+                </div>
+                <div class="form-group row">
+                  <label for="needqq" class="col-sm-1 control-label text_label">QQ</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="needqq" name="" value="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="publish_contents_div" style="padding-bottom:40px;">
+                <h5 class="control-label" style="margin-bottom:15px;">上传文件</h5>
+                <div class="form-group row">
+                  <div class="col-sm-2" style="position:relative;">
+                    <input type="file" class="form-control" id="needqq" style="opacity:0;position:absolute;z-index:999;cursor:default;" name="" value="">
+                    <button class="btn btn-info filesUp">文件上传</button>
+                  </div>
+                  <span class="col-sm-5 files_name">上传文件名字</span>
+                </div>
+
+              </div>
+
+              <div class="publish_contents_div row">
+                <h5 class="control-label col-sm-2">您选择的议员是</h5>
+                <div class="append_card col-sm-4">
+                  <div class="cards_one text-right">
+                    <img class="card_img" src="http://via.placeholder.com/65x75" alt="">
+                    <p><span class="card_name">张三</span>等级：<span>3级</span></p>
+                    <p><span>100%</span>好评</p>
+                    <p>近三个月成交<span>19</span>笔</p>
+                    <p><span>23</span>位客户评价</p>
+                    <p>擅长翻译类型：<span>汉译英、英译韩</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="publish_contents_div">
+                <h5 class="control-label" style="display:inline-block;margin-bottom:15px;">明确需求标题和详情</h5>
+                <span style="padding-left:30px;">参照发布实例</span>
+                <div class="form-group row">
+                  <div class="col-sm-5">
+                    <input type="text" class="form-control" name="" value="">
+                  </div>
+                  <div class="col-sm-2" style="width:18%;">
+                    <button type="button" class="form-control btn-info" name="button">主动投标模式</button>
+                  </div>
+                  <div class="col-sm-2" style="width:18%;">
+                    <button type="button" class="form-control btn-info" name="button">分配译员模式</button>
+                  </div>
+                  <div class="col-sm-2" style="width:18%;">
+                    <button type="button" class="form-control btn-info" name="button">选定译员模式</button>
+                  </div>
+                </div>
+              </div>
+
+            </form>
+          </div>
+
+          <div class="publish_contents_right col-sm-3">
+            <!-- 热门需求  开始 -->
+            <div class="hot_needs">
+              <h4>其他热门需求</h4>
+
+              <div class="hot_needs_cards">
+                <h5><a href="#">国外网站发文翻译</a></h5>
+                <p>需求描述：</p>
+                <p class="hot_cards_text">需要翻译的原文：中国自行车联赛组委会与各举办地共同举行盛大赛事</p>
+                <p class="hot_text_weight">价格：<span>500</span></p>
+              </div>
+              <div class="hot_needs_cards">
+                <h5><a href="#">商业计划书翻译</a></h5>
+                <p>需求描述：</p>
+                <p class="hot_cards_text">需要翻译的原文：中国自行车联赛组委会与各举办地共同举行盛大赛事</p>
+                <p class="hot_text_weight">价格：<span>500</span></p>
+              </div>
+              <div class="hot_needs_cards">
+                <h5><a href="#">文言文翻译</a></h5>
+                <p>需求描述：</p>
+                <p class="hot_cards_text">需要翻译的原文：中国自行车联赛组委会与各举办地共同举行盛大赛事</p>
+                <p class="hot_text_weight">价格：<span>500</span></p>
+              </div>
+            </div>
+            <!--  热门需求结束  -->
+            <div class="hot_advert">
+              <img src="http://via.placeholder.com/270x140" alt="">
+            </div>
+
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="clear"></div>
+
+      <!--  发布需求 结束  -->
+
+      <!-- 用户指南  -->
+      <div class="messages container"></div>
+
+      <!--  login footer  -->
+      <footer class="container register_footer cl"></footer>
+
+    </div>
+    <script type="text/javascript">
+    $(function(){
+      bsStep(1);
+				//bsStep(i) i 为number 可定位到第几步 如bsStep(2)/bsStep(3)
+
+    })
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,12 @@
+
+/*点击图片下一张*/
+.four_flash{position:relative;width:1200px;height:230px; margin:0 auto;margin-top:40px;}
+.four_flash .flashBg{width:1050px;height:230px; margin:0 auto;position:relative;overflow:hidden;}
+.four_flash .flashBg ul.mobile{width:2000%;height:inherit; position:absolute;top:15; left:0;}
+.four_flash .flashBg ul.mobile li{border:5px solid #f2f2f2;float:left;width:185px;height:220px;margin-left:21px;color:#6C6E85;}
+.four_flash .flashBg ul.mobile li:hover{border:5px solid #f2f2f2; color:#fff;}
+.four_flash .flashBg ul.mobile li img{width:175px;height:210px;}
+.four_flash .but_left{width:50px;height:100px;position:absolute; top:60px; left:0px;}
+.four_flash .but_right{width:50px;height:100px; position:absolute; top:60px; right:0px;}
+.four_flash .but_left:hover{background:url(../img/qianxleft1.png) no-repeat;}
+.four_flash .but_right:hover{background:url(../img/qianxr1.png) no-repeat;}
